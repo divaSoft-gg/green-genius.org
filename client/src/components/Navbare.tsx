@@ -15,7 +15,7 @@ const Navbare = () => {
     };
   
     return (
-      <Navbar onMenuOpenChange={setIsMenuOpen} className="w-full z-10 bg-white dark:bg-black shadow-lg fixed top-0">
+      <Navbar onMenuOpenChange={setIsMenuOpen} className='w-full justify-normal flex-col' >
         <NavbarContent>
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
