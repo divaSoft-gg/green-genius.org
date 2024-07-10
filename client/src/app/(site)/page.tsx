@@ -1,10 +1,10 @@
-import Hero from '@/pages/Home/hero'
-import { NextPage } from 'next'
+// "use client"
+// import Hero from "@/pages/Home/hero";
 
-interface Props {}
-
-const Page: NextPage<Props> = ({}) => {
-  return <div><Hero /></div>
-}
-
-export default Page
+// export default function Home() {
+//   return (
+//     <main className="">
+//       <Hero />
+//     </main>
+//   );
+// }

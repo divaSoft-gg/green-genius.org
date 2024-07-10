@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section className="relative isolate px-6  lg:px-8">
             <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 h-[700px] sm:h-[700px]" aria-hidden="true">
-                <div className="relative left-[calc(50%-11rem)] sm:left-[calc(50%+30rem)] aspect-[1155/678] w-[40.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffcc80] to-[#f398f7] opacity-65 sm:w-[82.1875rem]" />
+                <div className="relative left-[calc(50%-11rem)] sm:left-[calc(50%+30rem)] aspect-[1155/678] w-[32.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffcc80] to-[#f398f7] opacity-65 sm:w-[72.1875rem]" />
             </div>
             <div className="grid max-w-screen-xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbare from "@/components/Navbare";
-import { Providers } from "@/utils/providers";
+import { Providers } from "@/lib/providers/providers";
 
 const inter = DM_Sans({ subsets: ["latin"] });
 
