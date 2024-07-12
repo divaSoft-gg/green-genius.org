@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbare from "@/components/Navbare";
 import { Providers } from "@/lib/providers/providers";
+import Footer from "@/components/Footer";
 
 const inter = DM_Sans({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
             <Providers>
               <Navbare />
               {children}
+              <Footer />
             </Providers>
         </body>
     </html>

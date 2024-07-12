@@ -9,13 +9,13 @@ const Navbare = () => {
 
     const menuItems = {
       "Home":"/",
-      "Pricing":"#",
+      "Pricing":"/pricing",
       "Blog ":"#",
-      "Contact ":"test",
+      "Contact ":"/contact",
     };
   
     return (
-      <Navbar onMenuOpenChange={setIsMenuOpen} className='w-full  flex-col shadow-slate-400 navbar' >
+      <Navbar onMenuOpenChange={setIsMenuOpen} className='w-full  flex-col  navbar  '>
           <NavbarContent >
             <NavbarMenuToggle
               aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -28,7 +28,7 @@ const Navbare = () => {
           <NavbarContent className="hidden sm:flex gap-4" justify="center">
             {Object.entries(menuItems).map(([key, value], index) => (
               <NavbarItem key={`${key}-${value}`}>
-                <Link color="foreground" href={`${value}`}
+                <Link color="foreground" href={`${value}`} className='hover:text-blue-600'
                 >
                   {key}
                 </Link>
@@ -36,14 +36,14 @@ const Navbare = () => {
             ))}
           </NavbarContent>
           <NavbarContent justify="end">
-            {/* <NavbarItem className="hidden lg:flex">
+            <NavbarItem className="hidden lg:flex">
               <Link href="#">Login</Link>
             </NavbarItem>
             <NavbarItem>
               <Button as={Link} color="primary" href="#" variant="flat">
                 Sign Up
               </Button>
-            </NavbarItem> */}
+            </NavbarItem>
           </NavbarContent>
           <NavbarMenu>
             {Object.entries(menuItems).map(([key, value], index) => (
@@ -52,13 +52,24 @@ const Navbare = () => {
                   color={
                     "foreground"
                   }
-                  className="w-full"
+                  className="w-full hover:text-blue-600"
                   href={`${value}`}
                 >
                   {key}
                 </Link>
               </NavbarMenuItem>
             ))}
+              <NavbarMenuItem>
+              <Link
+                  color={
+                    "foreground"
+                  }
+                  className="w-full hover:text-blue-600"
+                  href="/login"
+                >
+                  Login
+                </Link>
+              </NavbarMenuItem>
           </NavbarMenu>
         </Navbar>
     );
