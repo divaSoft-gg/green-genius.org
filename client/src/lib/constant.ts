@@ -51,3 +51,10 @@ export const pricingPlans: PricingPlan[] = [
         buttonLink: "#"
     }
 ];
+
+export const menuItems = {
+    "Home":"/",
+    "Pricing":"/pricing",
+    // "Blog ":"#",
+    "Contact ":"/contact",
+  };

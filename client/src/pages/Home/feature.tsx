@@ -43,8 +43,8 @@ export default function Feature() {
                 <path fillRule="evenodd" d="M4 3a1 1 0 000 2v8a2 2 0 002 2h8a2 2 0 002-2V5a1 1 0 000-2H4zm1 5a1 1 0 100 2h2a1 1 0 000-2H5zM8 6a1 1 0 000 2h4a1 1 0 000-2H8z" clipRule="evenodd"></path>
               </svg>
             }
-            title="Eco-Friendly Transportation"
-            description="Optimize and manage all transportation related to your facility, focusing on reducing emissions and improving efficiency."
+            title="Track Transportation"
+            description="Optimize and manage all CO2 mession related to your facility, focusing on reducing emissions and improving efficiency."
           />
 
           {/* Comprehensive Waste Management */}

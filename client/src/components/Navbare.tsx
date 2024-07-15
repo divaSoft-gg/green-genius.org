@@ -3,16 +3,13 @@
 import React, { useState } from 'react';
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Button} from "@nextui-org/react";
 import Link from 'next/link';
+import { menuItems } from '@/lib/constant';
+import ArrowLeft from './icon/ArrowLeft';
 
 const Navbare = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const menuItems = {
-      "Home":"/",
-      "Pricing":"/pricing",
-      "Blog ":"#",
-      "Contact ":"/contact",
-    };
+
   
     return (
       <Navbar onMenuOpenChange={setIsMenuOpen} className='w-full  flex-col  navbar  '>
@@ -36,12 +33,13 @@ const Navbare = () => {
             ))}
           </NavbarContent>
           <NavbarContent justify="end">
-            <NavbarItem className="hidden lg:flex">
+            {/* <NavbarItem className="hidden lg:flex">
               <Link href="#">Login</Link>
-            </NavbarItem>
+            </NavbarItem> */}
             <NavbarItem>
-              <Button as={Link} color="primary" href="#" variant="flat">
-                Sign Up
+              <Button as={Link} color="primary" href="http://app.green-genius.org" variant="flat">
+                Start Now
+                <ArrowLeft />
               </Button>
             </NavbarItem>
           </NavbarContent>

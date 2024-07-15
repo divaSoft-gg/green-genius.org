@@ -1,4 +1,5 @@
 import ArrowLeft from "@/components/icon/ArrowLeft";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
@@ -17,15 +18,15 @@ export default function Hero() {
                         Empower Your Business with <span className="text-primary">Sustainable Solutions</span></h1>
                     <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                         Track, manage, and reduce your carbon footprint with Green Genius.</p>
-                    <Link href="#"
+                    <Link href="/contact"
                         className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                        Contact Our Team to Get Started
+                        Contact Our Team Now
                         <ArrowLeft />
                     </Link>
-                    <Link href="#"
+                    {/* <Link href="#"
                         className="inline-flex items-center justify-center px-5 py-3 mt-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 " >
                         Speak to Sales
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className="mt-4 md:mt-6 lg:mt-12 lg:col-span-5 lg:flex h-96 ">
                     <img src="/carbon-footprint-icon.png" className="h-full w-full object-contain"
