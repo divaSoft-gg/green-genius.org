@@ -1,4 +1,4 @@
-import FAQList from '@/components/FAQList';
+import FAQList from '@/components/faq/FAQList';
 import React from 'react';
 
 const faqs = [

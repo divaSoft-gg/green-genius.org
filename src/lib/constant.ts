@@ -1,11 +1,4 @@
-interface PricingPlan {
-    title: string;
-    description: string;
-    price: number;
-    features: string[];
-    buttonText: string;
-    buttonLink: string;
-}
+import { PricingPlan } from "./types";
 
 export const pricingPlans: PricingPlan[] = [
     {

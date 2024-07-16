@@ -1,10 +1,7 @@
+import { FeatureCardProps } from "@/lib/types";
 import React from "react";
 
-interface FeatureCardProps {
-  title: string;
-  description: string;
-  icon: JSX.Element; // This will accept SVG icons directly
-}
+
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) => {
   return (

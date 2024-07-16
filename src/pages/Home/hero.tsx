@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 h-[700px] sm:h-[700px]"
                 aria-hidden="true">
                 <div
-                    className="relative left-[calc(50%-11rem)] sm:left-[calc(50%+30rem)] aspect-[1155/678] w-[45.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ECCBDE] via-[#FDE3BE] to-[#FBD7B7] opacity-70 sm:w-[72.1875rem]" />
+                    className="relative left-[calc(50%-11rem)] sm:left-[calc(50%+30rem)] aspect-[1155/678] w-[32.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ECCBDE] via-[#FDE3BE] to-[#FBD7B7] opacity-70 sm:w-[72.1875rem]" />
             </div>
 
             <div className="grid max-w-screen-xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12 justify-center">
