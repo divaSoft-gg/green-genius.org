@@ -1,6 +1,6 @@
 "use client"
 
-import PricingSection from "@/pages/Pricing/pricing";
+import PricingSection from "@/views/Pricing/pricing";
 
 
 export default function Pricing() {
