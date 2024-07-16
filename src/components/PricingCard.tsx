@@ -1,13 +1,7 @@
+import { PricingCardProps } from '@/lib/types';
 import React from 'react';
 
-interface PricingCardProps {
-    title: string;
-    description: string;
-    price: number;
-    features: string[];
-    buttonText: string;
-    buttonLink: string;
-}
+
 
 const PricingCard: React.FC<PricingCardProps> = ({ title, description, price, features, buttonText, buttonLink }) => {
     return (

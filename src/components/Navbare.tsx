@@ -5,6 +5,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
 import Link from 'next/link';
 import { menuItems } from '@/lib/constant';
 import ArrowLeft from './icon/ArrowLeft';
+import DarkModeToggle from './DarkModeToggle';
 
 const Navbare = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,9 +34,10 @@ const Navbare = () => {
             ))}
           </NavbarContent>
           <NavbarContent justify="end">
-            {/* <NavbarItem className="hidden lg:flex">
-              <Link href="#">Login</Link>
-            </NavbarItem> */}
+            <NavbarItem className=" lg:flex">
+              {/* <Link href="#">Login</Link> */}
+              <Link href="#"> <DarkModeToggle /> </Link>
+            </NavbarItem>
             <NavbarItem>
               <Button as={Link} color="primary" href="http://app.green-genius.org" variant="flat">
                 Start Now

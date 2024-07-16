@@ -18,15 +18,15 @@ export default function Footer() {
                         <div className="py-2 px-2">
                             <div className="flex items-center">
                                 <Email />
-                                <span className="ml-3 text-lg text-gray-500 dark:text-gray-400">email@green-genius.com</span>
+                                <span className="ml-3  text-gray-500 dark:text-gray-400">email@green-genius.com</span>
                             </div>
                             <div className="flex items-center">
                                 <Phone />
-                                <span className="ml-3 text-lg text-gray-500 dark:text-gray-400">+1 123 456 789</span>
+                                <span className="ml-3  text-gray-500 dark:text-gray-400">+1 123 456 789</span>
                             </div>
                             <div className="flex items-center">
                                 <Adress />
-                                <span className="ml-3 text-lg text-gray-500 dark:text-gray-400">123 Green Street, City, Country</span>
+                                <span className="ml-3  text-gray-500 dark:text-gray-400">123 Green Street, City, Country</span>
                             </div>
                         </div>
                     </div>
