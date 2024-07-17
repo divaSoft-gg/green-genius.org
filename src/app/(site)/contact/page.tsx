@@ -1,6 +1,5 @@
 "use client"
 
-
 import FAQPage from "@/components/Home/faq";
 import { Button, Input, Textarea } from "@nextui-org/react";
 import { InlineWidget } from "react-calendly";
@@ -18,7 +17,10 @@ return (
       </div>
       <div className="mx-auto max-w-screen-md grid grid-cols-1 lg:grid-cols-2 gap-16">
         <form action="#" className="flex flex-col gap-4">
-          <Input type="email" label="Your email" variant="bordered" required />
+          <Input type="text" label="Name" variant="bordered" required />
+          <Input type="email" label="Business email" variant="bordered" required />
+          <Input type="text" label="Company" variant="bordered" required />
+          <Input type="number" label="Company size" variant="bordered" required />
           <Input type="text" label="Subject" variant="bordered" required />
           <Textarea label="Your message" variant="bordered" maxRows={6} />
           <Button type="submit" color="primary" className="w-full">Send Message</Button>
