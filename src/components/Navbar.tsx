@@ -3,9 +3,8 @@
 import React, { useState } from 'react';
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Button} from "@nextui-org/react";
 import Link from 'next/link';
-import { menuItems } from '@/lib/constant';
 import ArrowLeft from './icon/ArrowLeft';
-import DarkModeToggle from './DarkModeToggle';
+import { menuItems } from '@/lib/constant';
 
 const Navbare = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +12,7 @@ const Navbare = () => {
 
   
     return (
-      <Navbar onMenuOpenChange={setIsMenuOpen} className='w-full  flex-col  navbar  '>
+      <Navbar onMenuOpenChange={setIsMenuOpen} className='w-full  flex-col  navbar px-4  '>
           <NavbarContent >
             <NavbarMenuToggle
               aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -36,7 +35,6 @@ const Navbare = () => {
           <NavbarContent justify="end">
             <NavbarItem className=" lg:flex">
               {/* <Link href="#">Login</Link> */}
-              <Link href="#"> <DarkModeToggle /> </Link>
             </NavbarItem>
             <NavbarItem>
               <Button as={Link} color="primary" href="http://app.green-genius.org" variant="flat">

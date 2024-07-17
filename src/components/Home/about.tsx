@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
     return (
         <section className="bg-white dark:bg-gray-900 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
