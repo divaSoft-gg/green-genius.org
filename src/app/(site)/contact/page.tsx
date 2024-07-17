@@ -15,15 +15,15 @@ return (
           know.
         </p>
       </div>
-      <div className="mx-auto max-w-screen-md grid grid-cols-1 lg:grid-cols-2 gap-16">
-        <form action="#" className="flex flex-col gap-4">
+      <div className="mx-auto max-w-screen-lg grid grid-cols-1 lg:grid-cols-2 gap-16 px-8 md:px-16">
+        <form action="#" className="flex flex-col gap-4 ">
           <Input type="text" label="Name" variant="bordered" required />
           <Input type="email" label="Business email" variant="bordered" required />
           <Input type="text" label="Company" variant="bordered" required />
           <Input type="number" label="Company size" variant="bordered" required />
           <Input type="text" label="Subject" variant="bordered" required />
           <Textarea label="Your message" variant="bordered" maxRows={6} />
-          <Button type="submit" color="primary" className="w-full">Send Message</Button>
+          <Button type="submit" color="primary" className="w-full px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">Send Message</Button>
         </form>
           <InlineWidget url="https://calendly.com/firas1dahmani" />
       </div>
