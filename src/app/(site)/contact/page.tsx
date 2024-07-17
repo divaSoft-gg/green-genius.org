@@ -1,7 +1,7 @@
 "use client"
 
 
-import FAQPage from "@/views/Home/faq";
+import FAQPage from "@/components/Home/faq";
 import { Button, Input, Textarea } from "@nextui-org/react";
 import { InlineWidget } from "react-calendly";
 

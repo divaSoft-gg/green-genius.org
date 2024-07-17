@@ -1,8 +1,6 @@
 import { FeatureCardProps } from "@/lib/types";
 import React from "react";
 
-
-
 const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) => {
   return (
     <div className="flex flex-col justify-center items-center">

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import Navbare from "@/components/Navbare";
+import Navbare from "@/components/Navbar";
 import { Providers } from "@/lib/providers/providers";
 import Footer from "@/components/Footer";
 
