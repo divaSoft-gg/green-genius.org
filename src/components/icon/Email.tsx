@@ -1,6 +1,6 @@
 export default function Email() {
     return (
-        <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" viewBox="0 -2.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-4 h-4 text-gray-500 " viewBox="0 -2.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -922.000000)" fill="#9CA3AF">
                     <g id="icons" transform="translate(56.000000, 160.000000)">

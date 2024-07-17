@@ -3,13 +3,13 @@ import { features } from "@/lib/constant";
 
 export default function Feature() {
     return (
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 text-center" >
           <div className="max-w-screen-md mx-auto mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
               Designed for business teams like yours
             </h2>
-            <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="text-gray-500 sm:text-xl ">
               Here at Green Genius, we focus on sustainable practices that help your business reduce its carbon footprint and contribute to a healthier planet.
             </p>
           </div>
