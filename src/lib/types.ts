@@ -36,3 +36,24 @@ export interface FeatureCardProps {
     description: string;
     icon: JSX.Element; // This will accept SVG icons directly
 }
+
+/**
+ * @description
+ * Interface representing a single FAQ item.
+ * Each FAQ item consists of a question and an answer.
+ */
+export interface FAQ {
+    question: string;
+    answer: string;
+  }
+  
+  /**
+   * @description
+   * Props for the FAQList component.
+   * `faqs` is an array of FAQ items to be rendered in the FAQList component.
+   */
+
+  export interface FAQListProps {
+    faqs: FAQ[] | [];
+    faqPage?: FAQ[];
+  }

@@ -1,14 +1,6 @@
 import React from 'react';
 import FAQItem from './FAQItem';
-
-interface FAQ {
-  question: string;
-  answer: string;
-}
-
-interface FAQListProps {
-  faqs: FAQ[];
-}
+import { FAQListProps } from '@/lib/types';
 
 const FAQList: React.FC<FAQListProps> = ({ faqs }) => {
   return (
