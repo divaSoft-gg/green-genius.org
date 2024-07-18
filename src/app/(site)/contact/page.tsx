@@ -1,13 +1,14 @@
 "use client"
 
-import FAQPage from "@/components/Home/faq";
+import CTA from "@/components/Home/cta";
+import {FAQPage} from "@/components/Home/faq";
+import { faqs } from "@/lib/constant";
 import { Button, Input, Textarea } from "@nextui-org/react";
 import { InlineWidget } from "react-calendly";
 
 export default function Contact() {
 return (
-  <main className="relative ">
-    <section className="bg-white ">
+    <main className="relative bg-white ">
       <div className="flex flex-col items-center justify-center max-w-3xl mx-auto text-center my-8 ">
         <h2 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 ">Contact Us</h2>
         <p className="my-4 lg:mb-8 font-light text-center text-gray-500  sm:text-xl">
@@ -27,8 +28,8 @@ return (
         </form>
           <InlineWidget url="https://calendly.com/firas1dahmani" />
       </div>
-      <FAQPage />
-    </section>
-  </main>
+      <FAQPage faqPage={faqs.contact} faqs={[]} />
+      <CTA />
+    </main>
 );
 }
