@@ -24,7 +24,7 @@ export default function Hero() {
         //         </div>
         //     </div>
         // </section>
-        <section className="relative bg-gradient-to-br from-blue-900 to-indigo-800 text-white overflow-hidden">
+        <section className="relative bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover  text-black overflow-hidden">
             {/* <div className="absolute inset-0 bg-primary opacity-50"></div> */}
             
             
@@ -35,15 +35,15 @@ export default function Hero() {
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                             Innovate.<br />Transform.<br />Succeed.
                         </h1>
-                        <p className="text-xl mb-8 text-gray-300">Track, manage, and reduce your carbon footprint with Green Genius.</p>
-                        <ButtonCTA />
+                        <p className="text-xl mb-8 text-gray-400">Track, manage, and reduce your carbon footprint with Green Genius.</p>
+                        <ButtonCTA ClassName={"bg-primary text-white"} />
                         
                     </div>
                     
                     {/* <!-- Right Side: Features --> */}
-                    <div className="w-full md:w-1/2 md:pl-12">
-                        <div className="mt-4 md:mt-6 lg:mt-12 lg:col-span-5 lg:flex h-96 shadow-2xl">
-                            <img src="https://plus.unsplash.com/premium_vector-1719585232525-a4ebaf1b0614?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="h-full w-full object-contain"
+                    <div className="w-full md:w-1/2 md:pl-12 ">
+                        <div className="mt-4 md:mt-6 lg:mt-12 lg:col-span-5 lg:flex  ">
+                            <img src="/carbon-footprint.png" className="h-full w-full object-contain "
                             alt="Carbon Footprint Icon" />
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function Hero() {
             </div>
             
             {/* <!-- Decorative Element --> */}
-            <div className="absolute bottom-0 left-0 right-0">
+            <div className="absolute bottom-0 left-0 right-0 ">
                 <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
                 </svg>
