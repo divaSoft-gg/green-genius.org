@@ -7,7 +7,7 @@ import Adress from "./icon/Adress";
 
 export default function Footer() {
     return (
-        <footer className="p-4 bg-white sm:p-6  w-full mx-auto  flex-col">
+        <footer className="p-4 bg-white sm:p-6  w-full mx-auto  flex-col ">
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <Link href="#" className="flex items-center">
