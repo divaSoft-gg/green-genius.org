@@ -5,7 +5,9 @@ import Navbare from "@/components/Navbare";
 import { Providers } from "@/lib/providers/providers";
 import Footer from "@/components/Footer";
 
-const inter = DM_Sans({ subsets: ["latin"] });
+const inter = DM_Sans({ 
+  subsets: ["latin"] 
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
