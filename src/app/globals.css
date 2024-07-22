@@ -13,10 +13,4 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Header fix responsiveness !! */
-.navbar header {
-  max-width: none;
-  padding-left: 0px;
-  padding-right: 0px;
-}
 

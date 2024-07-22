@@ -1,7 +1,6 @@
-import FAQList from '@/components/faq/FAQList';
-import { faqs } from '@/lib/constant';
 import { FAQListProps } from '@/lib/types';
 import React from 'react';
+import FAQItem from './atoms/FAQItem';
 
 export  const FAQPage :  React.FC<FAQListProps> = ({ faqPage }) =>  {
   return (
@@ -9,7 +8,11 @@ export  const FAQPage :  React.FC<FAQListProps> = ({ faqPage }) =>  {
       <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 ">
           Frequently Asked Questions
       </h2>
-      <FAQList faqs={faqPage ? faqPage : []} />
+      <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16  md:grid-cols-2">
+      {faqPage?.map((faq, index) => (
+        <FAQItem key={index} question={faq.question} answer={faq.answer} />
+      ))}
+    </div>
     </section>
   );
 }
