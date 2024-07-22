@@ -9,7 +9,7 @@ import { faqs, pricingPlans } from "@/lib/constant";
 export default function Pricing() {
   return (
     <main className="relative ">
-      <div className=" bg-white py-4 px-4 lg:py-8  lg:space-y-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+      <div className=" bg-whit py-8 px-4 mx-auto max-w-screen-xl lg:py-8  lg:space-y-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {pricingPlans.map((plan, index) => (
           <div className={(index == 2 ? 'md:col-span-2 lg:col-span-1': '')}>
             <PricingCard
