@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 /**
  * @description
  * Represents a pricing plan with details such as title, description, price, features, button text, and button link.
@@ -57,3 +59,16 @@ export interface FAQ {
     faqs: FAQ[] | [];
     faqPage?: FAQ[];
   }
+
+  /**
+ * Props for the SharedSection component.
+ * 
+ * @property {ReactNode} children - The content to be displayed within the section.
+ * @property {string} [className] - Optional additional CSS classes to apply to the section.
+ */
+
+  export interface SharedSectionProps {
+    children: ReactNode;
+    className?: string;
+  }
+  
