@@ -3,7 +3,7 @@ import React from 'react';
 
 const PricingCard: React.FC<PricingCardProps> = ({ title, description, price, features, buttonText, buttonLink }) => {
     return (
-        <div className="md:min-w-[376px] h-full w-full flex  flex-col p-6 text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow   xl:p-8 ">
+        <div className="lg:min-w-[320px] h-full w-full flex  flex-col p-6 text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow   xl:p-8 ">
             <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
             <p className="font-light text-gray-500 sm:text-lg ">{description}</p>
             <div className="flex justify-center items-baseline my-8">

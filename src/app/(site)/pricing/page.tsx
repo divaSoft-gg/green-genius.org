@@ -3,13 +3,14 @@
 import CTA from "@/components/Home/cta";
 import { FAQPage } from "@/components/Home/faq";
 import PricingCard from "@/components/PricingCard";
+import SharedSection from "@/components/SharedSection";
 import { faqs, pricingPlans } from "@/lib/constant";
 
 
 export default function Pricing() {
   return (
     <main className="relative ">
-      <div className=" bg-whit py-8 px-4 mx-auto max-w-screen-xl lg:py-8  lg:space-y-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+    <SharedSection className="lg:space-y-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {pricingPlans.map((plan, index) => (
           <div className={(index == 2 ? 'md:col-span-2 lg:col-span-1': '')}>
             <PricingCard
@@ -23,7 +24,8 @@ export default function Pricing() {
             />
           </div>
         ))}
-      </div>
+    </SharedSection>
+        
       <FAQPage faqPage={faqs.pricing} faqs={[]} />
       <CTA />
     </main>

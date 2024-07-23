@@ -4,11 +4,12 @@ import Link from "next/link";
 import Email from "./icon/Email";
 import Phone from "./icon/phone";
 import Adress from "./icon/Adress";
+import SharedSection from "./SharedSection";
 
 export default function Footer() {
     return (
-        <footer className="p-4 bg-white sm:p-6  w-full mx-auto  flex-col ">
-            <div className="md:flex md:justify-between">
+        <SharedSection>
+                       <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <Link href="#" className="flex items-center">
                         {/* <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-8" alt="FlowBite Logo" /> */}
@@ -31,6 +32,9 @@ export default function Footer() {
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
+
+                    </div>
+                    <div >
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Legal</h2>
                         <ul className="text-gray-600 ">
                             <li className="mb-4">
@@ -59,6 +63,6 @@ export default function Footer() {
                     </Link>
                 </div>
             </div>
-        </footer>
+        </SharedSection>
     );
 }
