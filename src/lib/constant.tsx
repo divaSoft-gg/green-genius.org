@@ -65,6 +65,7 @@ export const menuItems = {
     "Pricing":"/pricing",
     // "Blog ":"#",
     "Contact ":"/contact",
+    "FAQ":"/faq",
 };
 
 /**
