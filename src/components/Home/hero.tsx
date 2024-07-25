@@ -3,35 +3,36 @@ import ButtonCTA from "./atoms/Button";
 
 export default function Hero() {
     return (
-        <SharedSection className="relative !bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] !bg-center bg-cover  text-black overflow-hidden ">
-            <div className="container mx-auto px-4  md:pb-32  z-10">
-                <div className="flex flex-col md:flex-row items-center justify-between">
-                    {/* <!-- Left Side: Company Info --> */}
-                    <div className="w-full md:w-1/2 mb-12 md:mb-0">
-                        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                            Innovate.<br />Transform.<br />Succeed.
-                        </h1>
-                        <p className="text-xl mb-8 text-gray-500">Track, manage, and reduce your carbon footprint with Green Genius.</p>
-                        <ButtonCTA ClassName={"bg-primary text-white"} />
+        <section className="relative bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover">
+            <SharedSection  className="text-black overflow-hidden !bg-transparent" >
+                <div className="container mx-auto px-4  md:pb-32  z-10">
+                    <div className="flex flex-col md:flex-row items-center justify-between">
+                        {/* <!-- Left Side: Company Info --> */}
+                        <div className="w-full md:w-1/2 mb-12 md:mb-0">
+                            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                                Innovate.<br />Transform.<br />Succeed.
+                            </h1>
+                            <p className="text-xl mb-8 text-gray-500">Track, manage, and reduce your carbon footprint with Green Genius.</p>
+                            <ButtonCTA ClassName={"bg-primary text-white"} />
+                        </div>
                         
-                    </div>
-                    
-                    {/* <!-- Right Side: Features --> */}
-                    <div className="w-full md:w-1/2 md:pl-12 ">
-                        <div className="mt-4 md:mt-6 lg:mt-12 lg:col-span-5 lg:flex  ">
-                            <img src="/carbon-footprint.png" className="h-full w-full object-contain "
-                            alt="Carbon Footprint Icon" />
+                        {/* <!-- Right Side: Features --> */}
+                        <div className="w-full md:w-1/2 md:pl-12 ">
+                            <div className="mt-4 md:mt-6 lg:mt-12 lg:col-span-5 lg:flex  ">
+                                <img src="/carbon-footprint.png" className="h-full w-full object-contain "
+                                alt="Carbon Footprint Icon" />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            {/* <!-- Decorative Element --> */}
-            <div className="absolute bottom-0 left-0 right-0 ">
-                <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
-                </svg>
-            </div>
-        </SharedSection>
+                
+                {/* <!-- Decorative Element --> */}
+                <div className="absolute bottom-0 left-0 right-0 ">
+                    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+                    </svg>
+                </div>
+            </SharedSection>
+        </section>
     );
 }

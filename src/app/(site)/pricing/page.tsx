@@ -1,10 +1,10 @@
 "use client"
 
 import CTA from "@/components/Home/cta";
-import { FAQPage } from "@/components/Home/faq";
+// import { FAQPage } from "@/components/Home/faq";
 import PricingCard from "@/components/PricingCard";
 import SharedSection from "@/components/SharedSection";
-import { faqs, pricingPlans } from "@/lib/constant";
+import {  pricingPlans } from "@/lib/constant";
 
 
 export default function Pricing() {
@@ -12,7 +12,7 @@ export default function Pricing() {
     <main className="relative ">
     <SharedSection className="lg:space-y-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {pricingPlans.map((plan, index) => (
-          <div className={(index == 2 ? 'md:col-span-2 lg:col-span-1': '')}>
+          <div key={index} className={(index == 2 ? 'md:col-span-2 lg:col-span-1': '')}>
             <PricingCard
               key={index}
               title={plan.title}
@@ -26,7 +26,7 @@ export default function Pricing() {
         ))}
     </SharedSection>
         
-      <FAQPage faqPage={faqs.pricing} faqs={[]} />
+      {/* <FAQPage faqPage={faqs.pricing} faqs={[]} /> */}
       <CTA />
     </main>
   );
