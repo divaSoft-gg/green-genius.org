@@ -2,3 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto:wght@400;700&display=swap');
+
+/* CSS Variables */
+:root {
+  --font-f-primary: 'Poppins', sans-serif;
+  --font-f-secondary: 'Roboto', sans-serif;
+  --font-f-hero: 'Poppins Black', sans-serif;
+  --color-primary: #007BFF;
+  --color-secondary: #6C757D;
+  --color-background: #FFFFFF;
+  --color-text: #212529;
+}
+
+/* Resetting Default Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: var(--font-f-primary);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
