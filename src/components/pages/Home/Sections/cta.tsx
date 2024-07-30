@@ -3,7 +3,7 @@ import Button from '../../../common/Button';
 
 const Cta = () => {
     return (
-        <section className="relative z-10 overflow-hidden bg-primary">
+        <section className="relative z-10 overflow-hidden bg-sky">
             <SharedSection className="!bg-transparent">
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap items-center">

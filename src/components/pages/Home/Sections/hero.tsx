@@ -9,7 +9,7 @@ const Hero = () => {
                     <div className="flex flex-col md:flex-row items-center justify-between">
                         {/* <!-- Left Side: Company Info --> */}
                         <div className="w-full md:w-1/2 mb-12 md:mb-0">
-                            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-pr">
                                 Innovate.<br />Transform.<br />Succeed.
                             </h1>
                             <p className="text-xl mb-8 text-gray-500">Track, manage, and reduce your carbon footprint with Green Genius.</p>
