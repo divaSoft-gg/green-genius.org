@@ -7,11 +7,11 @@
 
 @layer utilities {
   .bg-primary {
-    background-color: #0284c7; /* Default primary color */
+    background-color: #3b82f6; /* Default primary color */
   }
 
   .text-primary {
-    color: #0284c7; /* Default primary color */
+    color: #3b82f6; /* Default primary color */
   }
 }
 
