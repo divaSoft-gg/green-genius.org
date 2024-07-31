@@ -1,6 +1,6 @@
 import ArrowLeft from '../../../../assets/icons/ArrowLeft';
 import Button from '../../../common/Button';
-import SharedSection from '../../../common/SharedSection';
+import SharedSection from '../../../layouts/SharedSection';
 
 const Hero = () => {
     return (

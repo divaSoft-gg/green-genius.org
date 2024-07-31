@@ -1,4 +1,4 @@
-import SharedSection from '../../common/SharedSection';
+import SharedSection from '../SharedSection';
 import Button from '../../common/Button';
 import Instagram from '../../../assets/icons/Instagram';
 import Linkedin from '../../../assets/icons/Linkedin';

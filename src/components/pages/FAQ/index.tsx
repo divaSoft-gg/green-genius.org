@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SharedSection from "../../common/SharedSection";
+import SharedSection from "../../layouts/SharedSection";
 import { FAQPage } from "../../common/FAQList";
 import { faqs } from "../../../helpers/constant";
 import Cta from "../Home/Sections/cta";

@@ -1,4 +1,4 @@
-import SharedSection from '../../../common/SharedSection';
+import SharedSection from '../../../layouts/SharedSection';
 import Button from '../../../common/Button';
 import ArrowLeft from '../../../../assets/icons/ArrowLeft';
 
