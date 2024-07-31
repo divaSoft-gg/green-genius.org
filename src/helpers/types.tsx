@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { InputHTMLAttributes, ReactNode } from "react";
 
 /**
  * Props for the Button component.
@@ -94,3 +94,17 @@ export interface FAQ {
     children: ReactNode;
     className?: string;
   }
+
+  /**
+ * Props for the Input component.
+ *
+ * @property {string} label - The label text that will be displayed inside the input field.
+ * @property {string} id - The unique identifier for the input field.
+ * @property {string} [className] - Optional additional CSS classes to apply to the input container.
+ * @extends {InputHTMLAttributes<HTMLInputElement>} - Extends the standard input attributes.
+ */
+export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+  label: string;
+  id: string;
+  className?: string;
+}

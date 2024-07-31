@@ -1,0 +1,8 @@
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  transform: translateX(0) translateY(-1.5rem) scale(0.75);
+}
+
+.peer:focus + label {
+  transform: translateX(0) translateY(-1.5rem) scale(0.75);
+}
