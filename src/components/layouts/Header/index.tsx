@@ -16,11 +16,11 @@ return (
     <nav className="relative bg-white border-gray-200 fixed w-full z-50 top-0 left-0 ">
         <SharedSection className=" flex flex-wrap items-center justify-between !py-3">
             <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" /> */}
+                <img src="/favicon.ico" className="h-8" alt="Green Genuis Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap ">Green-Genius</span>
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <Button to='"http://app.green-genius.org"' type="button"
+                <Button to='http://app.green-genius.org' type="button"
                     className="flex text-blue-500 bg-blue-100  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center ">
                     Get started
                     <ArrowLeft />
