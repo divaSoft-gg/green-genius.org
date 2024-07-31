@@ -31,10 +31,9 @@ const Footer = () => {
                 <div className="lg:mx-auto text-left ">
                     <h4 className="text-lg text-gray-900 font-medium mb-7">Products</h4>
                     <ul className="text-sm  transition-all duration-500">
-                        <li className="mb-6"><Button to="#"  className="text-gray-600 hover:text-gray-900">Figma UI System</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Icons Assets</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Responsive Blocks</Button></li>
-                        <li><Button to="#"  className=" text-gray-600 hover:text-gray-900">Components Library</Button></li>
+                        <li className="mb-6"><Button to="#"  className="text-gray-600 hover:text-gray-900">Analyse</Button></li>
+                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Track</Button></li>
+                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Reports</Button></li>
                     </ul>
                 </div>
                 {/* <!--End Col--> */}

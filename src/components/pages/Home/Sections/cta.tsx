@@ -1,5 +1,6 @@
 import SharedSection from '../../../common/SharedSection';
 import Button from '../../../common/Button';
+import ArrowLeft from '../../../../assets/icons/ArrowLeft';
 
 const Cta = () => {
     return (
@@ -21,7 +22,10 @@ const Cta = () => {
                         </div>
                         <div className="w-full px-4 lg:w-1/2">
                             <div className="text-center lg:text-right">
-                                <Button className="bg-white text-black font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >Contact Our Team Now</Button>
+                                <Button className="bg-white text-black font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >
+                                    Contact Our Team Now
+                                    <ArrowLeft />
+                                </Button>
                             </div>
                         </div>
                     </div>
