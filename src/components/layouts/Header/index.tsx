@@ -13,7 +13,7 @@ setIsMenuOpen(!isMenuOpen);
 };
 
 return (
-    <nav className="relative bg-white border-gray-200 fixed w-full z-50 top-0 left-0 ">
+    <nav className="relative bg-white border-gray-200  w-full z-50 top-0 left-0 ">
         <SharedSection className=" flex flex-wrap items-center justify-between !py-3">
             <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="/favicon.ico" className="h-8" alt="Green Genuis Logo" />

@@ -1,6 +1,5 @@
 import { InlineWidget } from "react-calendly";
 import SharedSection from "../../common/SharedSection";
-import Cta from "../Home/Sections/cta";
 import Button from "../../common/Button";
 import Input from "../../common/Input";
 
@@ -18,20 +17,18 @@ const Contact = () => {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
               <form action="#" className="flex flex-col gap-4 ">
-                <Input className="bg-white" type="input" label="Name" id="name" required />
-                <Input className="bg-white" type="input" label="Business email" id="email" required />
-                <Input className="bg-white" type="input" label="Company" id="company" required />
-                <Input className="bg-white" type="input" label="Company size" id="company-size" required />
-                <Input className="bg-white" type="input" label="Subject" id="subject" required />
-                <Input className="bg-white" type="textarea" label="Your message" id="message" rows={6} />
+                <Input className="bg-white" type="input"  placeholder="Name" id="name" required />
+                <Input className="bg-white" type="input"  placeholder="Business email" id="email" required />
+                <Input className="bg-white" type="input"  placeholder="Company" id="company" required />
+                <Input className="bg-white" type="input"  placeholder="Company size" id="company-size" required />
+                <Input className="bg-white" type="input"  placeholder="Subject" id="subject" required />
+                <Input className="bg-white" type="textarea"  placeholder="Your message" id="message" rows={6} />
                 <Button type="submit"  className="w-full px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">Send Message</Button>
               </form>
                 <InlineWidget url="https://calendly.com/firas1dahmani" />
             </div>
           </SharedSection>
         </div>
-          {/* <FAQPage faqPage={faqs.contact} faqs={[]} /> */}
-          <Cta />
         </>
     );
 }
