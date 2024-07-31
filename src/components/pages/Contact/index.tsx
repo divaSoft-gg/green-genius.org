@@ -1,5 +1,5 @@
 import { InlineWidget } from "react-calendly";
-import SharedSection from "../../common/SharedSection";
+import SharedSection from "../../layouts/SharedSection";
 import Button from "../../common/Button";
 import Input from "../../common/Input";
 

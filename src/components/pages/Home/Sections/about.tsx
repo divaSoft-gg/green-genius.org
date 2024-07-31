@@ -1,4 +1,4 @@
-import SharedSection from '../../../common/SharedSection';
+import SharedSection from '../../../layouts/SharedSection';
 
 const About = () => {
     return (

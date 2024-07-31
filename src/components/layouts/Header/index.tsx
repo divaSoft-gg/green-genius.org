@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import SharedSection from '../../common/SharedSection';
+import SharedSection from '../SharedSection';
 import { menuItems } from '../../../helpers/constant';
 import { Link } from 'react-router-dom';
 import Button from '../../common/Button';

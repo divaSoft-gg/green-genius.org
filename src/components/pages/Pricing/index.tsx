@@ -1,6 +1,6 @@
 import { pricingPlans } from "../../../helpers/constant";
 import PricingCard from "../../common/PricingCard";
-import SharedSection from "../../common/SharedSection";
+import SharedSection from "../../layouts/SharedSection";
 import Cta from "../Home/Sections/cta";
 
 const Pricing = () => {
