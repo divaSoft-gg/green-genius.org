@@ -5,16 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .bg-primary {
-    background-color: #3b82f6; /* Default primary color */
-  }
-
-  .text-primary {
-    color: #3b82f6; /* Default primary color */
-  }
-}
-
 /* Resetting Default Styles */
 *,
 *::before,
@@ -24,7 +14,8 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -37,7 +28,8 @@ body {
 }
 
 /* Remove default list styles */
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
