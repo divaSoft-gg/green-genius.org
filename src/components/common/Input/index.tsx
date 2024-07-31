@@ -15,7 +15,7 @@ import React, { useState, InputHTMLAttributes, TextareaHTMLAttributes } from 're
 type InputOrTextareaProps = InputHTMLAttributes<HTMLInputElement> & TextareaHTMLAttributes<HTMLTextAreaElement>;
 
 interface InputProps extends InputOrTextareaProps {
-  label: string;
+  label?: string;
   id: string;
   className?: string;
   type?: 'input' | 'textarea';
@@ -26,7 +26,7 @@ const Input: React.FC<InputProps> = ({ label, id, type = 'input', className = ''
 
   const commonProps = {
     id,
-    className: `block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent peer`,
+    className: `block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent peer`,
     onFocus: () => setIsFocused(true),
     onBlur: (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => setIsFocused(e.target.value !== ''),
     ...props

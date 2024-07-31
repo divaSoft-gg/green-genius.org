@@ -22,7 +22,7 @@ const Cta = () => {
                         </div>
                         <div className="w-full px-4 lg:w-1/2">
                             <div className="text-center lg:text-right">
-                                <Button className="bg-white text-black font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >
+                                <Button to='/contact' className="bg-white text-black font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >
                                     Contact Our Team Now
                                     <ArrowLeft />
                                 </Button>
