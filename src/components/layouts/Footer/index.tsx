@@ -13,7 +13,7 @@ const Footer = () => {
                     <Button to="#"  className="flex justify-center lg:justify-start font-bold">
                         Green-Genuis
                     </Button>
-                    <p className="py-8 pr-4 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.</p>
+                    <p className="py-8 pr-4 text-sm text-gray-500 lg:max-w-[600px] text-center lg:text-left">Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.</p>
                     {/* <a to="#"  className="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
                         Contact us
                     </a> */}
