@@ -4,7 +4,7 @@ import { FeatureCardProps } from '../../../../../helpers/types';
 const FeatureCard : React.FC<FeatureCardProps> = ({ icon, title, description }) => {
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-bg-primary-100 lg:h-12 lg:w-12 ">
                 {icon}
             </div>
             <h3 className="mb-2 text-xl font-bold  text-center">{title}</h3>

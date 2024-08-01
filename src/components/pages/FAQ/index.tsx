@@ -20,7 +20,7 @@ export default function FAQ() {
         <main className="overflow-hidden">
             <SharedSection className="flex ">
                 {/* <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200   w-full">
-                    <ul className="flex flex-wrap -mb-px justify-left text-primary">
+                    <ul className="flex flex-wrap -mb-px justify-left text-text-primary">
                         <li className="me-2">
                             <button className={`inline-block p-4 border-b-2 rounded-t-lg ${activeTab==='Home'
                                 ? 'text-blue-600 border-blue-600'

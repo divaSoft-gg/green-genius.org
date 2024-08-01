@@ -14,7 +14,7 @@ const Hero = () => {
                                 Innovate.<br />Transform.<br />Succeed.
                             </h1>
                             <p className="text-xl mb-8 text-gray-500">Track, manage, and reduce your carbon footprint with Green Genius.</p>
-                            <Button to='/contact' className="bg-blue-500 text-white font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >
+                            <Button to='/contact' className="bg-bg-primary text-white font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >
                                 Contact Our Team Now
                                 <ArrowLeft />
                             </Button>

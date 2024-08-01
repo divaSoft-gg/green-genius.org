@@ -1,6 +1,6 @@
 export default function Management() {
     return (
-        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" className="w-5 h-5 text-primary lg:w-6 lg:h-6 " fill="currentColor">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" className="w-5 h-5 text-text-primary lg:w-6 lg:h-6 " fill="currentColor">
             <g>
                 <g>
                     <path d="M59,0H1C0.4,0,0,0.4,0,1v58c0,0.6,0.4,1,1,1h58c0.6,0,1-0.4,1-1V1C60,0.4,59.6,0,59,0z M58,4H39v2h19v48H39v2h19v2H2v-2

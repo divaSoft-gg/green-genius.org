@@ -23,7 +23,7 @@ const Contact = () => {
                 <Input className="bg-white" type="input"  placeholder="Company size" id="company-size" required />
                 <Input className="bg-white" type="input"  placeholder="Subject" id="subject" required />
                 <Input className="bg-white" type="textarea"  placeholder="Your message" id="message" rows={6} />
-                <Button type="submit"  className="w-full px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">Send Message</Button>
+                <Button type="submit"  className="w-full px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-bg-primary hover:bg-bg-primary-800 focus:ring-4 focus:ring-primary-300">Send Message</Button>
               </form>
                 <InlineWidget url="https://calendly.com/firas1dahmani" />
             </div>

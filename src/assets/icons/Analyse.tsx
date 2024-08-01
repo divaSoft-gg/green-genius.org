@@ -1,6 +1,6 @@
 export default function Analyse() {
     return (
-        <svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 353.332 353.332" className="w-5 h-5 text-primary lg:w-6 lg:h-6 " fill="currentColor">
+        <svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 353.332 353.332" className="w-5 h-5 text-text-primary lg:w-6 lg:h-6 " fill="currentColor">
             <g>
                 <path d="M85.831,210h60c8.284,0,15-6.717,15-15c0-8.284-6.716-15-15-15h-60c-8.284,0-15,6.716-15,15
                     C70.831,203.283,77.547,210,85.831,210z"/>

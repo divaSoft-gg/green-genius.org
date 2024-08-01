@@ -24,7 +24,7 @@ const PricingCard : React.FC<PricingCardProps> = ({ title, description, price, f
                 ))}
             </ul>
             <a href={buttonLink}
-                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
+                className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-bg-primary hover:bg-bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
                 {buttonText}
             </a>
         </div>

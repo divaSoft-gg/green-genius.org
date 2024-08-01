@@ -1,7 +1,7 @@
 export default function Transportation() {
     return (
         <svg   version="1.2" baseProfile="tiny" id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 188" className="w-5 h-5 text-primary lg:w-6 lg:h-6 " fill="currentColor"   >
+            xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 188" className="w-5 h-5 text-text-primary lg:w-6 lg:h-6 " fill="currentColor"   >
             <g>
                 <g>
                     <g>
