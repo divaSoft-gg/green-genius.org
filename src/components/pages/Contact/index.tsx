@@ -20,7 +20,7 @@ const Contact = () => {
                 <Input className="bg-white" type="input"  placeholder="Name" id="name" required />
                 <Input className="bg-white" type="input"  placeholder="Business email" id="email" required />
                 <Input className="bg-white" type="input"  placeholder="Company" id="company" required />
-                <Input className="bg-white" type="input"  placeholder="Company size" id="company-size" required />
+                <Input className="bg-white" type="number"  placeholder="Company size" id="company-size" required />
                 <Input className="bg-white" type="input"  placeholder="Subject" id="subject" required />
                 <Input className="bg-white" type="textarea"  placeholder="Your message" id="message" rows={6} />
                 <Button type="submit"  className="w-full px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-bg-primary hover:bg-bg-primary-800 focus:ring-4 focus:ring-primary-300">Send Message</Button>

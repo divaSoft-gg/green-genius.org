@@ -8,8 +8,8 @@ const Footer = () => {
     return (
         <SharedSection className="!py-0">
             {/* <!--Grid--> */}
-            <div className="grid grid-cols-2  lg:grid-cols-4 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
-                <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
+            <div className="grid grid-cols-2  lg:grid-cols-[1fr_200px_200px] gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
+                <div className="col-span-full mb-10 lg:col-span-1 lg:mb-0">
                     <Button to="#"  className="flex justify-center lg:justify-start font-bold">
                         Green-Genuis
                     </Button>
@@ -40,8 +40,8 @@ const Footer = () => {
                 <div className="lg:mx-auto text-center">
                     <h4 className="text-lg text-gray-900 font-medium mb-7">Resources</h4>
                     <ul className="text-sm  transition-all duration-500">
-                        <li className="mb-6"><Button to="#"  className="text-gray-600 hover:text-gray-900">FAQs</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Quick Start</Button></li>
+                        <li className="mb-6"><Button to="/faq"  className="text-gray-600 hover:text-gray-900">FAQs</Button></li>
+                        {/* <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Quick Start</Button></li> */}
                     </ul>
                 </div>
                 {/* <!--End Col--> */}
@@ -58,7 +58,7 @@ const Footer = () => {
             {/* <!--Grid--> */}
             <div className="py-7 border-t border-gray-200">
                 <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-                    <span className="text-sm text-gray-500 sm:text-center ">© 2024 <Button to="#" className="hover:underline">Green-Genuis™</Button>. All Rights Reserved.
+                    <span className="text-sm text-gray-500 sm:text-center ">© 2024 <Button to="https://www.diva-software.com" className="hover:underline">Diva Software™</Button>. All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                         <Button to="#" className="w-9 h-9 rounded-full flex justify-center items-center " >

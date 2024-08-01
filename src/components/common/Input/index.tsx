@@ -18,7 +18,7 @@ interface InputProps extends InputOrTextareaProps {
   label?: string;
   id: string;
   className?: string;
-  type?: 'input' | 'textarea';
+  type?: 'input' | 'textarea' | 'number';
 }
 
 const Input: React.FC<InputProps> = ({ label, id, type = 'input', className = '', ...props }) => {

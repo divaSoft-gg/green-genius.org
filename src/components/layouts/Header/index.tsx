@@ -4,6 +4,7 @@ import { menuItems } from '../../../helpers/constant';
 import { Link } from 'react-router-dom';
 import Button from '../../common/Button';
 import ArrowLeft from '../../../assets/icons/ArrowLeft';
+import Logo from '../../../assets/icons/logo';
 
 const Header = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,10 +16,11 @@ setIsMenuOpen(!isMenuOpen);
 return (
     <nav className="relative bg-white border-gray-200  w-full z-50 top-0 left-0 ">
         <SharedSection className=" flex flex-wrap items-center justify-between !py-3">
-            <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="/favicon.ico" className="h-8" alt="Green Genuis Logo" />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap ">Green-Genius</span>
-            </a>
+            <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                {/* <img src="/favicon.ico" className="h-8" alt="Green Genuis Logo" />
+                <span className="self-center text-2xl font-semibold whitespace-nowrap ">Green-Genius</span> */}
+                <Logo />
+            </Link>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <Button to='http://app.green-genius.org' type="button"
                     className="flex text-blue-500 bg-blue-100  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center ">
