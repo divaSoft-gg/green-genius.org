@@ -64,7 +64,7 @@ export const menuItems = {
     "Home":"/",
     "Pricing":"/pricing",
     // "Blog ":"#",
-    "Contact ":"/contact",
+    "Contact":"/contact",
     "FAQ":"/faq",
 };
 
@@ -129,6 +129,7 @@ export const faqs = {
  */
 export const features = [
     {
+      tr: 'sustainable_supply_management',
       icon: (
         <Management />
       ),
@@ -136,6 +137,7 @@ export const features = [
       description: "Manage and track carbon-related purchases made by your facility, ensuring sustainable sourcing and reducing your overall carbon footprint.",
     },
     {
+      tr: 'emission_source_tracking',
       icon: (
         <Production />
       ),
@@ -143,6 +145,7 @@ export const features = [
       description: "Define and monitor the different footprints across your production chain to identify opportunities for reducing your carbon emissions.",
     },
     {
+      tr: 'track_transportation',
       icon: (
         <Transportation />
       ),
@@ -150,6 +153,7 @@ export const features = [
       description: "Optimize and manage all CO2 emissions related to your facility, focusing on reducing emissions and improving efficiency.",
     },
     {
+      tr: 'comprehensive_waste_management',
       icon: (
         <Trash />
       ),
@@ -157,10 +161,35 @@ export const features = [
       description: "Efficiently manage and reduce facility waste, ensuring proper disposal and recycling to minimize environmental impact.",
     },
     {
+      tr: 'carbon_footprint_analysis',
       icon: (
         <Analyse />
       ),
       title: "Carbon Footprint Analysis",
       description: "Calculate your facility's CO2 footprint and generate detailed reports to monitor progress towards sustainability goals and identify areas for improvement.",
     },
+  ];
+
+
+  /**
+   * @description language constant 
+   */
+
+  export const languages = [
+    {
+      code: "fr",
+      name: "Français",
+      country_code: "fr"
+    },
+    {
+      code: "en",
+      name: "English",
+      country_code: "gb"
+    },
+    {
+      code: "ar",
+      name: "عربي",
+      country_code: "sa",
+      dir: "rtl"
+    }
   ];

@@ -17,8 +17,8 @@ export default function Trash() {
 <path d="M99.8255 93.7532C98.9499 94.0494 97.4487 95.6418 97.1806 96.5861C96.8768 97.6785 96.8768 130.821 97.1806 131.914C97.6453 133.506 99.6111 134.987 101.255 134.987C102.899 134.987 104.865 133.506 105.33 131.914C105.634 130.821 105.634 97.6785 105.33 96.6231C105.026 95.5307 103.757 94.1605 102.739 93.8087C101.791 93.4755 100.737 93.4569 99.8255 93.7532ZM102.238 96.9379L102.685 97.3823V114.25V131.118L102.238 131.562C101.97 131.858 101.595 132.025 101.255 132.025C100.916 132.025 100.54 131.858 100.272 131.562L99.8255 131.118V114.25V97.3823L100.272 96.9379C100.54 96.6416 100.916 96.475 101.255 96.475C101.595 96.475 101.97 96.6416 102.238 96.9379Z" fill="white"/>
 <path d="M111.263 93.7532C110.387 94.0494 108.886 95.6418 108.618 96.5861C108.314 97.6785 108.314 130.821 108.618 131.914C109.083 133.506 111.049 134.987 112.693 134.987C114.337 134.987 116.303 133.506 116.767 131.914C117.071 130.821 117.071 97.6785 116.767 96.6231C116.464 95.5307 115.195 94.1605 114.176 93.8087C113.229 93.4755 112.174 93.4569 111.263 93.7532ZM113.676 96.9379L114.122 97.3823V114.25V131.118L113.676 131.562C113.408 131.858 113.032 132.025 112.693 132.025C112.353 132.025 111.978 131.858 111.71 131.562L111.263 131.118V114.25V97.3823L111.71 96.9379C111.978 96.6416 112.353 96.475 112.693 96.475C113.032 96.475 113.408 96.6416 113.676 96.9379Z" fill="white"/>
 <defs>
-<filter id="filter0_d_1_71" x="0.200001" y="0.200001" width="203.6" height="203.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_1_71" x="0.200001" y="0.200001" width="203.6" height="203.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_1_71"/>
 <feOffset dy="3"/>
@@ -29,8 +29,8 @@ export default function Trash() {
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_71" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_1_71" x1="142.199" y1="19" x2="102" y2="179" gradientUnits="userSpaceOnUse">
-<stop offset="0.0197852" stop-color="#76ADFD"/>
-<stop offset="1" stop-color="#396BF8"/>
+<stop offset="0.0197852" stopColor="#76ADFD"/>
+<stop offset="1" stopColor="#396BF8"/>
 </linearGradient>
 </defs>
 </svg>

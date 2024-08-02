@@ -16,8 +16,8 @@ export default function Transportation() {
 <path d="M113.328 112.263V113.744H116.187H119.047V112.263V110.781H116.187H113.328V112.263Z" fill="white"/>
 <path d="M59 118.188V119.669H62.5742H66.1484V118.188V116.706H62.5742H59V118.188Z" fill="white"/>
 <defs>
-<filter id="filter0_d_1_66" x="0.200001" y="0.200001" width="203.6" height="203.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_1_66" x="0.200001" y="0.200001" width="203.6" height="203.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_1_66"/>
 <feOffset dy="3"/>
@@ -28,8 +28,8 @@ export default function Transportation() {
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_66" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_1_66" x1="142.199" y1="19" x2="102" y2="179" gradientUnits="userSpaceOnUse">
-<stop offset="0.0197852" stop-color="#76ADFD"/>
-<stop offset="1" stop-color="#396BF8"/>
+<stop offset="0.0197852" stopColor="#76ADFD"/>
+<stop offset="1" stopColor="#396BF8"/>
 </linearGradient>
 </defs>
 </svg>

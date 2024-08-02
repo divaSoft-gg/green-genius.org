@@ -6,6 +6,7 @@ import Pricing from './components/pages/Pricing'
 import Contact from './components/pages/Contact'
 import FAQ from './components/pages/FAQ'
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 function App() {
   const location = useLocation();
@@ -14,16 +15,22 @@ function App() {
     window.scrollTo(0, 0);
   }, [location]);
 
+  const { i18n } = useTranslation();
+
+  const isRTL = i18n.language === 'ar';
+
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
+    <div className={isRTL ? 'rtl' : 'ltr'}>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </div>
   )
 }
 

@@ -3,6 +3,7 @@ import Button from '../../common/Button';
 import Instagram from '../../../assets/icons/Instagram';
 import Linkedin from '../../../assets/icons/Linkedin';
 import Youtube from '../../../assets/icons/Youtube';
+import LanguageSwitcher from '../../common/LanguageSwitcher';
 
 const Footer = () => {
     return (
@@ -41,6 +42,7 @@ const Footer = () => {
                 <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
                     <span className="text-sm text-gray-500 sm:text-center ">© 2024 <Button to="https://www.diva-software.com" className="hover:underline">Diva Software™</Button>. All Rights Reserved.
                     </span>
+                    <div><LanguageSwitcher /></div>
                     <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                         <Button to="#" className="w-9 h-9 rounded-full flex justify-center items-center " >
                             <Instagram />   

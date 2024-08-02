@@ -1,0 +1,45 @@
+{
+    "heroSection": {
+        "h1": "Innovez ,<br />Transformez avec Vision Atteignez un Succès Remarquable.",
+        "description": "Suivez, gérez et réduisez votre empreinte carbone avec Green Genius.",
+        "button": "Contactez notre équipe maintenant"
+    },
+    "navbar": {
+        "Home": "Accueil",
+        "Pricing": "Tarification",
+        "Contact": "Contact",
+        "FAQ": "FAQ",
+        "getStarted": "Commencer"
+      },
+      "feature_section": {
+        "title": "Pour votre équipe commerciale",
+        "description": "Chez Green Genius, nous nous concentrons sur des pratiques durables qui aident votre entreprise à réduire son empreinte carbone et à contribuer à une planète plus saine.",
+      
+        "features": {
+            "sustainable_supply_management": {
+              "title": "Gestion Durable des Stocks",
+              "description": "Suivez les achats carbone pour un approvisionnement durable et une empreinte réduite."
+            },
+            "emission_source_tracking": {
+              "title": "Suivi des Sources d'Émissions",
+              "description": "Surveillez les empreintes de votre production pour réduire les émissions de carbone."
+            },
+            "track_transportation": {
+              "title": "Suivi du Transport",
+              "description": "Gérez les émissions de CO2 de votre établissement pour réduire et améliorer l'efficacité."
+            },
+            "comprehensive_waste_management": {
+              "title": "Gestion Complète des Déchets",
+              "description": "Gérez efficacement les déchets avec une élimination et un recyclage appropriés."
+            },
+            "carbon_footprint_analysis": {
+              "title": "Analyse de l'Empreinte Carbone",
+              "description": "Calculez l'empreinte CO2 et générez des rapports pour suivre les progrès."
+            }
+          }
+      },
+      "about": {
+        "title": "À Propos de Green Genius",
+        "description": "Green Genius est dédié à aider les entreprises, en général et dans le secteur textile en particulier, à réduire leur empreinte carbone. Notre plateforme offre des outils complets pour suivre, gérer et signaler les émissions de carbone dans diverses opérations. Nous visons à permettre aux entreprises de prendre des décisions éclairées pour un avenir durable."
+      }
+  }
