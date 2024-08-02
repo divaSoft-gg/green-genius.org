@@ -17,8 +17,6 @@ return (
     <nav className="relative bg-white border-gray-200  w-full z-50 top-0 left-0 ">
         <SharedSection className=" flex flex-wrap items-center justify-between !py-3">
             <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                {/* <img src="/favicon.ico" className="h-8" alt="Green Genuis Logo" />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap ">Green-Genius</span> */}
                 <Logo />
             </Link>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

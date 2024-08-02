@@ -28,15 +28,6 @@ const Footer = () => {
                     </ul>
                 </div>
                 {/* <!--End Col--> */}
-                {/* <div className="lg:mx-auto text-left ">
-                    <h4 className="text-lg text-gray-900 font-medium mb-7">Products</h4>
-                    <ul className="text-sm  transition-all duration-500">
-                        <li className="mb-6"><Button to="#"  className="text-gray-600 hover:text-gray-900">Analyse</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Track</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Reports</Button></li>
-                    </ul>
-                </div> */}
-                {/* <!--End Col--> */}
                 <div className="lg:mx-auto text-center">
                     <h4 className="text-lg text-gray-900 font-medium mb-7">Resources</h4>
                     <ul className="text-sm  transition-all duration-500">
@@ -44,16 +35,6 @@ const Footer = () => {
                         {/* <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Quick Start</Button></li> */}
                     </ul>
                 </div>
-                {/* <!--End Col--> */}
-                {/* <div className="lg:mx-auto text-left">
-                    <h4 className="text-lg text-gray-900 font-medium mb-7">Blogs</h4>
-                    <ul className="text-sm  transition-all duration-500">
-                        <li className="mb-6"><Button to="#"  className="text-gray-600 hover:text-gray-900">News</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">Tips & Tricks</Button></li>
-                        <li className="mb-6"><Button to="#"  className=" text-gray-600 hover:text-gray-900">New Updates</Button></li>
-                        <li><Button to="#"  className=" text-gray-600 hover:text-gray-900">Events</Button></li>
-                    </ul>
-                </div> */}
             </div>
             {/* <!--Grid--> */}
             <div className="py-7 border-t border-gray-200">
