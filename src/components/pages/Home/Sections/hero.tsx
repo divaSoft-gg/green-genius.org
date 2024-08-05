@@ -22,7 +22,9 @@ const Hero = () => {
                         </p>
                         <Button to='/contact' className="bg-bg-primary text-white font-semibold rounded-lg mx-auto inline-flex items-center justify-center py-4 px-9 hover:bg-opacity-90">
                         {t('heroSection.button')}
-                        {isRTL ? <ArrowLeft /> : <ArrowRight />}
+                        <div className={` ${isRTL ? 'mr-5' : 'ml-5'} `}>
+                            {isRTL ? <ArrowLeft /> : <ArrowRight />} 
+                        </div>
                         </Button>
                     </div>
                     

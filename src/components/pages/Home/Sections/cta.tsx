@@ -1,30 +1,34 @@
 import SharedSection from '../../../layouts/SharedSection';
 import Button from '../../../common/Button';
 import ArrowLeft from '../../../../assets/icons/ArrowLeft';
+import ArrowRight from '../../../../assets/icons/ArrowRight';
+import { useTranslation } from 'react-i18next';
 
 const Cta = () => {
+    const { t,i18n } = useTranslation();
+    const isRTL = i18n.language === 'ar';
     return (
         <section className="relative z-10 overflow-hidden bg-bg-primary">
             <SharedSection className="!bg-transparent">
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap items-center">
                         <div className="w-full px-4 lg:w-1/2">
-                            <div className="text-center lg:text-left ">
+                            <div className={`text-center ${isRTL ? 'lg:text-right' : 'lg:text-left'}`}>
                                 <div className="mb-10 lg:mb-0 ">
-                                    <h1
-                                        className="mt-0 mb-3 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-[40px] md:leading-tight text-white ">
-                                        Ready to Make a Difference? Start Your Sustainability Journey with Green Genius!</h1>
-                                    <p
-                                        className="w-full text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed text-white">
+                                    <h1 className="mt-0 mb-3 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-[40px] md:leading-tight text-white ">
+                                        {t('cta.title')}
+                                    </h1>
+                                    <p className="w-full text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed text-white">
+                                        {t('cta.subtitle')}                                    
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="w-full px-4 lg:w-1/2">
-                            <div className="text-center lg:text-right">
+                            <div className={`text-center ${isRTL ? 'lg:text-left' : 'lg:text-right'}`}>
                                 <Button to='/contact' className="bg-white text-black font-semibold rounded-lg mx-auto  inline-flex items-center justify-center  py-4 px-9 hover:bg-opacity-90" >
-                                    Contact Our Team Now
-                                    <ArrowLeft />
+                                {t('cta.button')}
+                                <div className={` ${isRTL ? 'mr-5' : 'ml-5'} `}>{isRTL ? <ArrowLeft /> : <ArrowRight />}</div>
                                 </Button>
                             </div>
                         </div>
