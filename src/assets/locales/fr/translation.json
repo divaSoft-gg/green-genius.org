@@ -55,5 +55,45 @@
         "resources": "Ressources",
         "faqs": "FAQs",
         "copyright": "© 2024 Diva Software™. Tous droits réservés."
+    },
+    "pricingPlans": {
+      "month":"mois",
+      "title": "Tarification",
+      "Starter": {
+        "title": "Débutant",
+        "description": "Meilleure option pour un usage personnel et pour votre prochain projet.",
+        "features": {
+          "individual_configuration": "Configuration individuelle",
+          "no_fees": "Aucun frais de configuration ou caché",
+          "team_size_1": "Taille de l'équipe : 1 développeur",
+          "premium_support": "Support premium : 6 mois",
+          "free_updates": "Mises à jour gratuites : 6 mois"
+        },
+        "buttonText": "Commencer"
+      },
+      "Company": {
+        "title": "Entreprise",
+        "description": "Pertinent pour plusieurs utilisateurs, support étendu et premium.",
+        "features": {
+          "individual_configuration": "Configuration individuelle",
+          "no_fees": "Aucun frais de configuration ou caché",
+          "team_size": "Taille de l'équipe : 10 développeurs",
+          "premium_support": "Support premium : 24 mois",
+          "free_updates": "Mises à jour gratuites : 24 mois"
+        },
+        "buttonText": "Commencer"
+      },
+      "Enterprise": {
+        "title": "Entreprise Avancée",
+        "description": "Idéal pour les usages à grande échelle et les droits de redistribution étendus.",
+        "features": {
+          "individual_configuration": "Configuration individuelle",
+          "no_fees": "Aucun frais de configuration ou caché",
+          "team_size": "Taille de l'équipe : 100+ développeurs",
+          "premium_support": "Support premium : 36 mois",
+          "free_updates": "Mises à jour gratuites : 36 mois"
+        },
+        "buttonText": "Commencer"
+      }
     }
 }

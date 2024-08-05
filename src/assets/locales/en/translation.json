@@ -55,5 +55,45 @@
         "resources": "Resources",
         "faqs": "FAQs",
         "copyright": "© 2024 Diva Software™. All Rights Reserved."
+    },
+    "pricingPlans": {
+      "month":"month",
+      "title": "Pricing",
+      "Starter": {
+        "title": "Starter",
+        "description": "Best option for personal use & for your next project.",
+        "features": {
+          "individual_configuration": "Individual configuration",
+          "no_fees": "No setup or hidden fees",
+          "team_size": "Team size: 1 developer",
+          "premium_support": "Premium support: 6 months",
+          "free_updates": "Free updates: 6 months"
+        },
+        "buttonText": "Get started"
+      },
+      "Company": {
+        "title": "Company",
+        "description": "Relevant for multiple users, extended & premium support.",
+        "features": {
+          "individual_configuration": "Individual configuration",
+          "no_fees": "No setup or hidden fees",
+          "team_size": "Team size: 10 developers",
+          "premium_support": "Premium support: 24 months",
+          "free_updates": "Free updates: 24 months"
+        },
+        "buttonText": "Get started"
+      },
+      "Enterprise": {
+        "title": "Enterprise",
+        "description": "Best for large scale uses and extended redistribution rights.",
+        "features": {
+          "individual_configuration": "Individual configuration",
+          "no_fees": "No setup or hidden fees",
+          "team_size": "Team size: 100+ developers",
+          "premium_support": "Premium support: 36 months",
+          "free_updates": "Free updates: 36 months"
+        },
+        "buttonText": "Get started"
+      }
     }
 }

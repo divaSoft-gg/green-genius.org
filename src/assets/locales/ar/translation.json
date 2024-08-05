@@ -55,5 +55,45 @@
         "resources": "الموارد",
         "faqs": "الأسئلة الشائعة",
         "copyright": "© 2024 Diva Software™. جميع الحقوق محفوظة."
+    },
+    "pricingPlans": {
+      "month":"شهر",
+      "title": "التسعير",
+      "Starter": {
+        "title": "مبتدئ",
+        "description": "أفضل خيار للاستخدام الشخصي وللمشروع القادم.",
+        "features": {
+          "individual_configuration": "تكوين فردي",
+          "no_fees": "لا رسوم إعداد أو رسوم خفية",
+          "team_size": "حجم الفريق: مطور واحد",
+          "premium_support": "دعم مميز: 6 أشهر",
+          "free_updates": "تحديثات مجانية: 6 أشهر"
+        },
+        "buttonText": "ابدأ"
+      },
+      "Company": {
+        "title": "شركة",
+        "description": "مناسب لعدة مستخدمين، دعم ممتد ومميز.",
+        "features": {
+          "individual_configuration": "تكوين فردي",
+          "no_fees": "لا رسوم إعداد أو رسوم خفية",
+          "team_size": "حجم الفريق: 10 مطورين",
+          "premium_support": "دعم مميز: 24 شهرًا",
+          "free_updates": "تحديثات مجانية: 24 شهرًا"
+        },
+        "buttonText": "ابدأ"
+      },
+      "Enterprise": {
+        "title": "مؤسسة",
+        "description": "أفضل لاستخدامات واسعة النطاق وحقوق إعادة التوزيع الموسعة.",
+        "features": {
+          "individual_configuration": "تكوين فردي",
+          "no_fees": "لا رسوم إعداد أو رسوم خفية",
+          "team_size": "حجم الفريق: 100+ مطورين",
+          "premium_support": "دعم مميز: 36 شهرًا",
+          "free_updates": "تحديثات مجانية: 36 شهرًا"
+        },
+        "buttonText": "ابدأ"
+      }
     }
 }

@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { PricingCardProps } from "../../../helpers/types";
 
 const PricingCard : React.FC<PricingCardProps> = ({ title, description, price, features, buttonText, buttonLink }) => {
+    const { t } = useTranslation();
     return (
         <div
             className="lg:min-w-[320px] h-full w-full flex  flex-col p-6 text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow   xl:p-8 ">
@@ -8,7 +10,7 @@ const PricingCard : React.FC<PricingCardProps> = ({ title, description, price, f
             <p className="font-light text-gray-500 sm:text-lg ">{description}</p>
             <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">${price}</span>
-                <span className="text-gray-500 ">/month</span>
+                <span className="text-gray-500 ">/{t('pricingPlans.month')}</span>
             </div>
             <ul role="list" className="mb-8 space-y-4 text-left">
                 {features.map((feature, index) => (
