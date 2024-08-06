@@ -1,7 +1,6 @@
 import { useState } from "react";
 import SharedSection from "../../layouts/SharedSection";
 import { FAQPage } from "../../common/FAQList";
-// import { faqs } from "../../../helpers/constant";
 import Cta from "../Home/Sections/cta";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
@@ -14,7 +13,7 @@ export default function FAQ() {
     const handleTabClick = (tabId : string) => {
         setActiveTab(tabId);
     };
-    
+
     const faqs: { home: FAQType[]; pricing: FAQType[]; contact: FAQType[] } = {
         home: t('faq.home', { returnObjects: true }) as FAQType[],
         pricing: t('faq.pricing', { returnObjects: true }) as FAQType[],
