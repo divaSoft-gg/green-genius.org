@@ -15,8 +15,8 @@ export default function Analyse() {
 <path d="M65.3629 127.467C64.8982 127.8 64.8268 128.745 65.2199 129.319C65.4701 129.652 65.8633 129.671 79.767 129.726C94.0103 129.763 94.046 129.763 94.5107 129.374C95.1004 128.911 95.154 128.078 94.6357 127.541C94.2783 127.171 94.046 127.171 80.0172 127.171C67.4002 127.171 65.7203 127.208 65.3629 127.467Z" fill="white"/>
 <path d="M65.3629 133.207C64.8982 133.54 64.8268 134.485 65.2199 135.059C65.4701 135.392 65.8097 135.41 74.2091 135.466C82.8587 135.521 82.9659 135.503 83.4306 135.133C84.0203 134.651 84.0739 133.818 83.5557 133.281C83.2161 132.929 82.9659 132.911 74.4772 132.911C66.8819 132.911 65.7203 132.948 65.3629 133.207Z" fill="white"/>
 <defs>
-<filter id="filter0_d_1_76" x="0.200001" y="0.200001" width="203.6" height="203.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_1_76" x="0.200001" y="0.200001" width="203.6" height="203.6" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_1_76"/>
 <feOffset dy="3"/>
@@ -27,8 +27,8 @@ export default function Analyse() {
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_76" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_1_76" x1="142.199" y1="19" x2="102" y2="179" gradientUnits="userSpaceOnUse">
-<stop offset="0.0197852" stop-color="#76ADFD"/>
-<stop offset="1" stop-color="#396BF8"/>
+<stop offset="0.0197852" stopColor="#76ADFD"/>
+<stop offset="1" stopColor="#396BF8"/>
 </linearGradient>
 </defs>
 </svg>

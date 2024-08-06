@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface FAQItemProps {
   question: string;
@@ -6,6 +7,8 @@ interface FAQItemProps {
 }
 
 const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
+  const {i18n} = useTranslation();
+  const isRTL = i18n.language === 'ar';
   return (
     <div className="mb-10">
       <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 ">
@@ -23,7 +26,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
         </svg>
         {question}
       </h3>
-      <p className="text-gray-500 ">{answer}</p>
+      <p className={`text-gray-500 ${isRTL ? 'lg:text-right' : 'lg:text-left'}`}>{answer}</p>
     </div>
   );
 };

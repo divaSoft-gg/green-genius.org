@@ -1,0 +1,160 @@
+{
+    "heroSection": {
+        "h1": "Innover,<br />Transformer,<br />Réussir.",
+        "description": "Suivez, gérez et réduisez votre empreinte carbone avec Green Genius.",
+        "button": "Contactez notre équipe maintenant"
+    },
+    "navbar": {
+        "Home": "Accueil",
+        "Pricing": "Tarification",
+        "Contact": "Contact",
+        "FAQ": "FAQ",
+        "getStarted": "Commencer"
+    },
+    "feature_section": {
+        "title": "Pour votre équipe commerciale",
+        "description": "Chez Green Genius, nous nous concentrons sur des pratiques durables qui aident votre entreprise à réduire son empreinte carbone et à contribuer à une planète plus saine.",
+        "features": {
+            "sustainable_supply_management": {
+                "title": "Gestion Durable des Stocks",
+                "description": "Suivez les achats carbone pour un approvisionnement durable et une empreinte réduite."
+            },
+            "emission_source_tracking": {
+                "title": "Suivi des Sources d'Émissions",
+                "description": "Surveillez les empreintes de votre production pour réduire les émissions de carbone."
+            },
+            "track_transportation": {
+                "title": "Suivi du Transport",
+                "description": "Gérez les émissions de CO2 de votre établissement pour réduire et améliorer l'efficacité."
+            },
+            "comprehensive_waste_management": {
+                "title": "Gestion Complète des Déchets",
+                "description": "Gérez efficacement les déchets avec une élimination et un recyclage appropriés."
+            },
+            "carbon_footprint_analysis": {
+                "title": "Analyse de l'Empreinte Carbone",
+                "description": "Calculez l'empreinte CO2 et générez des rapports pour suivre les progrès."
+            }
+        }
+    },
+    "about": {
+        "title": "À Propos de Green Genius",
+        "description": "Green Genius est dédié à aider les entreprises, en général et dans le secteur textile en particulier, à réduire leur empreinte carbone. Notre plateforme offre des outils complets pour suivre, gérer et signaler les émissions de carbone dans diverses opérations. Nous visons à permettre aux entreprises de prendre des décisions éclairées pour un avenir durable."
+    },
+    "cta": {
+        "title": "Prêt à faire une différence ? Commencez votre voyage vers la durabilité avec Green Genius !",
+        "subtitle": "Rejoignez-nous pour avoir un impact positif sur l'environnement.",
+        "button": "Contactez notre équipe maintenant"
+    },
+    "footer": {
+        "description": "Green Genius est une plateforme SaaS qui aide les entreprises à suivre, gérer et réduire leur empreinte carbone. Elle offre des outils pour la gestion des approvisionnements, la gestion des commandes, le transport, la gestion des déchets et le reporting CO2 pour soutenir des solutions durables.",
+        "pages": "Pages",
+        "home": "Accueil",
+        "pricing": "Tarification",
+        "contact": "Contact",
+        "resources": "Ressources",
+        "faqs": "FAQs",
+        "copyright": "© 2024 Diva Software™. Tous droits réservés."
+    },
+    "pricingPlans": {
+      "month":"mois",
+      "title": "Tarification",
+      "Starter": {
+        "title": "Débutant",
+        "description": "Meilleure option pour un usage personnel et pour votre prochain projet.",
+        "features": {
+          "individual_configuration": "Configuration individuelle",
+          "no_fees": "Aucun frais de configuration ou caché",
+          "team_size_1": "Taille de l'équipe : 1 développeur",
+          "premium_support": "Support premium : 6 mois",
+          "free_updates": "Mises à jour gratuites : 6 mois"
+        },
+        "buttonText": "Commencer"
+      },
+      "Company": {
+        "title": "Entreprise",
+        "description": "Pertinent pour plusieurs utilisateurs, support étendu et premium.",
+        "features": {
+          "individual_configuration": "Configuration individuelle",
+          "no_fees": "Aucun frais de configuration ou caché",
+          "team_size": "Taille de l'équipe : 10 développeurs",
+          "premium_support": "Support premium : 24 mois",
+          "free_updates": "Mises à jour gratuites : 24 mois"
+        },
+        "buttonText": "Commencer"
+      },
+      "Enterprise": {
+        "title": "Entreprise Avancée",
+        "description": "Idéal pour les usages à grande échelle et les droits de redistribution étendus.",
+        "features": {
+          "individual_configuration": "Configuration individuelle",
+          "no_fees": "Aucun frais de configuration ou caché",
+          "team_size": "Taille de l'équipe : 100+ développeurs",
+          "premium_support": "Support premium : 36 mois",
+          "free_updates": "Mises à jour gratuites : 36 mois"
+        },
+        "buttonText": "Commencer"
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Vous avez un problème technique ? Vous souhaitez envoyer des commentaires sur une fonctionnalité bêta ? Besoin de détails sur notre plan Business ? Faites-le nous savoir.",
+      "form": {
+        "name": "Nom",
+        "email": "Email professionnel",
+        "company": "Entreprise",
+        "companySize": "Taille de l'entreprise",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "sendMessage": "Envoyer le message"
+      }
+    },
+    "faq": {
+      "title": "FAQ - Green Genius",
+      "General": "Général",
+      "Pricing": "Tarification",
+      "Contact": "Contact",
+      "home": [
+        {
+          "question": "Comment Green Genius aide-t-il à réduire mon empreinte carbone ?",
+          "answer": "Notre plateforme fournit des outils pour surveiller et gérer les émissions, offrant des insights et des rapports pour vous aider à prendre des décisions éclairées."
+        },
+        {
+          "question": "Puis-je personnaliser les paramètres de mon installation ?",
+          "answer": "Oui, notre gestionnaire de paramètres vous permet de personnaliser la plateforme selon vos besoins et préférences spécifiques."
+        },
+        {
+          "question": "Green Genius est-il adapté à toutes les tailles d'entreprises ?",
+          "answer": "Absolument. Que vous soyez une petite entreprise ou une grande entreprise, nos solutions évolutives s'adaptent à vos besoins."
+        }
+      ],
+      "pricing": [
+        {
+          "question": "Quels sont les plans tarifaires de Green Genius ?",
+          "answer": "Nous proposons plusieurs plans tarifaires adaptés aux différents besoins des entreprises. Veuillez consulter notre page de tarification pour plus d'informations."
+        },
+        {
+          "question": "Offrez-vous des réductions ?",
+          "answer": "Oui, nous offrons des réductions pour les abonnements annuels et pour les organisations à but non lucratif. Contactez-nous pour plus de détails."
+        },
+        {
+          "question": "Y a-t-il un essai gratuit disponible ?",
+          "answer": "Oui, nous offrons un essai gratuit de 14 jours pour que vous puissiez explorer toutes les fonctionnalités avant de vous engager dans un plan."
+        }
+      ],
+      "contact": [
+        {
+          "question": "Comment puis-je contacter le support ?",
+          "answer": "Vous pouvez contacter notre équipe de support par email à support@greengenius.com ou nous appeler au (123) 456-7890."
+        },
+        {
+          "question": "Où se trouve Green Genius ?",
+          "answer": "Notre siège social est situé au 123 Green Lane, Sustainability City, Earth."
+        },
+        {
+          "question": "Quels sont vos horaires de service client ?",
+          "answer": "Notre équipe de service client est disponible du lundi au vendredi, de 9h à 17h (PST)."
+        }
+      ]
+    }
+}

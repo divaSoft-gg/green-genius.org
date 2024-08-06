@@ -80,7 +80,7 @@ export interface FAQ {
 
   export interface FAQListProps {
     faqs: FAQ[] | [];
-    faqPage?: FAQ[];
+    faqPage?: FAQ[] ;
   }
 
   /**
@@ -107,4 +107,14 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label: string;
   id: string;
   className?: string;
+}
+
+
+export interface TranslatedPricingPlan {
+  title: string; // The translated title of the pricing plan, representing the plan's name or type.
+  description: string; // The translated description of the pricing plan, providing details about the plan's features and benefits.
+  price: number; // The cost of the pricing plan. This value remains unchanged and is represented as a number.
+  features: string[]; // An array of strings, each representing a translated feature included in the pricing plan.
+  buttonText: string; // The translated text for the button associated with the pricing plan, typically used for call-to-action.
+  buttonLink: string; // The URL or link associated with the button, directing users to further action or information.
 }
