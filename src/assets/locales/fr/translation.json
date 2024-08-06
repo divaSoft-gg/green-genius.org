@@ -95,5 +95,66 @@
         },
         "buttonText": "Commencer"
       }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Vous avez un problème technique ? Vous souhaitez envoyer des commentaires sur une fonctionnalité bêta ? Besoin de détails sur notre plan Business ? Faites-le nous savoir.",
+      "form": {
+        "name": "Nom",
+        "email": "Email professionnel",
+        "company": "Entreprise",
+        "companySize": "Taille de l'entreprise",
+        "subject": "Sujet",
+        "message": "Votre message",
+        "sendMessage": "Envoyer le message"
+      }
+    },
+    "faq": {
+      "title": "FAQ - Green Genius",
+      "General": "Général",
+      "Pricing": "Tarification",
+      "Contact": "Contact",
+      "home": [
+        {
+          "question": "Comment Green Genius aide-t-il à réduire mon empreinte carbone ?",
+          "answer": "Notre plateforme fournit des outils pour surveiller et gérer les émissions, offrant des insights et des rapports pour vous aider à prendre des décisions éclairées."
+        },
+        {
+          "question": "Puis-je personnaliser les paramètres de mon installation ?",
+          "answer": "Oui, notre gestionnaire de paramètres vous permet de personnaliser la plateforme selon vos besoins et préférences spécifiques."
+        },
+        {
+          "question": "Green Genius est-il adapté à toutes les tailles d'entreprises ?",
+          "answer": "Absolument. Que vous soyez une petite entreprise ou une grande entreprise, nos solutions évolutives s'adaptent à vos besoins."
+        }
+      ],
+      "pricing": [
+        {
+          "question": "Quels sont les plans tarifaires de Green Genius ?",
+          "answer": "Nous proposons plusieurs plans tarifaires adaptés aux différents besoins des entreprises. Veuillez consulter notre page de tarification pour plus d'informations."
+        },
+        {
+          "question": "Offrez-vous des réductions ?",
+          "answer": "Oui, nous offrons des réductions pour les abonnements annuels et pour les organisations à but non lucratif. Contactez-nous pour plus de détails."
+        },
+        {
+          "question": "Y a-t-il un essai gratuit disponible ?",
+          "answer": "Oui, nous offrons un essai gratuit de 14 jours pour que vous puissiez explorer toutes les fonctionnalités avant de vous engager dans un plan."
+        }
+      ],
+      "contact": [
+        {
+          "question": "Comment puis-je contacter le support ?",
+          "answer": "Vous pouvez contacter notre équipe de support par email à support@greengenius.com ou nous appeler au (123) 456-7890."
+        },
+        {
+          "question": "Où se trouve Green Genius ?",
+          "answer": "Notre siège social est situé au 123 Green Lane, Sustainability City, Earth."
+        },
+        {
+          "question": "Quels sont vos horaires de service client ?",
+          "answer": "Notre équipe de service client est disponible du lundi au vendredi, de 9h à 17h (PST)."
+        }
+      ]
     }
 }

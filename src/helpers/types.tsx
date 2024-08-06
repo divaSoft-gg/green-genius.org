@@ -80,7 +80,7 @@ export interface FAQ {
 
   export interface FAQListProps {
     faqs: FAQ[] | [];
-    faqPage?: FAQ[];
+    faqPage?: FAQ[] ;
   }
 
   /**

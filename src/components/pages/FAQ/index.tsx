@@ -1,20 +1,24 @@
 import { useState } from "react";
 import SharedSection from "../../layouts/SharedSection";
 import { FAQPage } from "../../common/FAQList";
-import { faqs } from "../../../helpers/constant";
+// import { faqs } from "../../../helpers/constant";
 import Cta from "../Home/Sections/cta";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
+import { FAQ as FAQType } from "../../../helpers/types";
 
 export default function FAQ() {
-    // const [activeTab, setActiveTab] = useState('Home');
-
-    // const handleTabClick = (tab: string) => {
-    // setActiveTab(tab);
-    // };
+    const { t } = useTranslation();
     const [activeTab, setActiveTab] = useState('vertical-tab-with-border-1');
 
     const handleTabClick = (tabId : string) => {
         setActiveTab(tabId);
+    };
+    
+    const faqs: { home: FAQType[]; pricing: FAQType[]; contact: FAQType[] } = {
+        home: t('faq.home', { returnObjects: true }) as FAQType[],
+        pricing: t('faq.pricing', { returnObjects: true }) as FAQType[],
+        contact: t('faq.contact', { returnObjects: true }) as FAQType[],
     };
 
     return (
@@ -35,7 +39,7 @@ export default function FAQ() {
                             handleTabClick('vertical-tab-with-border-1')}
                             role="tab"
                             >
-                            General
+                            {t('faq.General')}
                         </button>
                         <button type="button" className={`${ activeTab==='vertical-tab-with-border-2'
                             ? 'border-b-2 border-black text-black '
@@ -46,7 +50,7 @@ export default function FAQ() {
                             handleTabClick('vertical-tab-with-border-2')}
                             role="tab"
                             >
-                            Pricing
+                            {t('faq.Pricing')}
                         </button>
                         <button type="button" className={`${ activeTab==='vertical-tab-with-border-3'
                             ? 'border-b-2 border-black text-black '
@@ -57,7 +61,7 @@ export default function FAQ() {
                             handleTabClick('vertical-tab-with-border-3')}
                             role="tab"
                             >
-                            Contact
+                            {t('faq.Contact')}
                         </button>
                     </nav>
                 </div>
