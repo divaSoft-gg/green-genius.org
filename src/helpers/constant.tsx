@@ -179,17 +179,22 @@ export const features = [
     {
       code: "fr",
       name: "Français",
-      country_code: "fr"
+      country_code: "fr",
+      flag_path : '/flags/fr.png'
     },
     {
       code: "en",
       name: "English",
-      country_code: "gb"
+      country_code: "gb",
+      flag_path : '/flags/en.png'
+
     },
     {
       code: "ar",
       name: "عربي",
       country_code: "sa",
-      dir: "rtl"
+      dir: "rtl",
+      flag_path : '/flags/ar.png'
+
     }
   ];
