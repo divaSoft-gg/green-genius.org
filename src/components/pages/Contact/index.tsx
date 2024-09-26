@@ -35,7 +35,7 @@ const Contact = () => {
                   {t('contact.form.sendMessage')}
                 </Button>
               </form>
-              <InlineWidget url="https://calendly.com/firas1dahmani" />
+              <InlineWidget url="https://calendly.com/rochdi-ktir" />
             </div>
           </SharedSection>
         </div>
