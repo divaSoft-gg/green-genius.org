@@ -1,9 +1,12 @@
 /* Importing Google Fonts */
+@import url(@aymen_diva/diva-shared-navbar/dist/index.css);
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 /* Resetting Default Styles */
 *,
