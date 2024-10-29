@@ -45,7 +45,7 @@ const Header = () => {
       <section className='max-w-[1200px] mx-auto'>
         <nav className="relative top-0 left-0 z-50 w-full bg-white border-gray-200">
           <SharedSection className="flex  flex-wrap items-center justify-between !py-3">
-            <Link to="/" className="flex items-center space-x-3 scale-75 lg:scale-100 rtl:space-x-reverse">
+            <Link to="/" className="flex items-center space-x-3 scale-75 md:scale-25 lg:scale-100 rtl:space-x-reverse">
               <Logo />
             </Link>
             <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
@@ -72,6 +72,14 @@ const Header = () => {
                   </ul>
                 )}
               </div>
+              <Button to='http://app.green-genius.org' type="button"
+                className="items-center justify-center hidden px-4 py-2 text-sm font-medium text-center text-blue-500 bg-blue-100 rounded-lg lg:flex md:hidden focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                {t('navbar.getStarted')}
+                <div className={` ${isRTL ? 'mr-3' : 'ml-3'} `}>
+                  {isRTL ? <ArrowLeft /> : <ArrowRight />}
+                </div>
+              </Button>
+
               <Button type="button" onClick={handleMenuToggle}
                 className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                 aria-controls="navbar-cta" aria-expanded={isMenuOpen}>
@@ -83,7 +91,7 @@ const Header = () => {
                 </svg>
               </Button>
             </div>
-            <div id="navbar-cta" className={` items-center justify-between w-full lg:static absolute  md:flex md:w-auto md:order-1  top-14 left-0  ${isMenuOpen ? 'block' : 'hidden'}`}>
+            <div id="navbar-cta" className={` items-center justify-between w-full lg:static absolute  md:flex md:static md:w-auto md:order-1  top-14 left-0  ${isMenuOpen ? 'block' : 'hidden'}`}>
               <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg shadow-2xl lg:shadow-none md:p-0 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
                 {Object.entries(menuItems).map(([key, path]) => (
                   <li className='!mx-0' key={key}>
@@ -96,7 +104,7 @@ const Header = () => {
                 ))}
                 <li>
                   <Button to='http://app.green-genius.org' type="button"
-                    className="flex items-center justify-center px-4 py-2 text-sm font-medium text-center text-blue-500 bg-blue-100 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                    className="flex items-center justify-center px-4 py-2 text-sm font-medium text-center text-blue-500 bg-blue-100 rounded-lg md:hidden focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                     {t('navbar.getStarted')}
                     <div className={` ${isRTL ? 'mr-3' : 'ml-3'} `}>
                       {isRTL ? <ArrowLeft /> : <ArrowRight />}
