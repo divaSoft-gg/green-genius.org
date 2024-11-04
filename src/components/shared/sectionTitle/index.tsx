@@ -2,10 +2,10 @@ export default function SectionTitle({ title, subtitle }: Readonly<{ title: stri
 
 
     return (
-        <div>
-            <h1 className="text-4xl font-semibold leading-normal text-left text-black dark:text-white lg:text-6xl">{title}</h1>
+        <div className="my-6">
+            <h1 className="text-4xl font-semibold leading-normal text-left text-black dark:text-white">{title}</h1>
 
-            {subtitle && <p className="mt-2 leading-8 text-white lg:text-lg text-md muted ">{subtitle}</p>}
+            {subtitle && <p className="mt-4 leading-8 text-black dark:text-white lg:text-lg text-md muted ">{subtitle}</p>}
         </div>
     )
 }
