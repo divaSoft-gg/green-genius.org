@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { ErrorBoundary } from 'react-error-boundary'
 import { ErrorFallback } from './components/ui/ErrorFallback'
@@ -8,13 +7,12 @@ import LoadingFallback from './components/ui/loader'
 import { router } from './routes'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <HelmetProvider>
         <Helmet
-          titleTemplate="Diva Software | %s"
+          titleTemplate="Green Genius | %s"
           defaultTitle=""
         />
         <RouterProvider
