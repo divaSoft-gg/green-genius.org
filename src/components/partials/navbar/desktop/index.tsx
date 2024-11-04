@@ -8,7 +8,7 @@ export default function DesktopNavBar({ navItems }: Readonly<{ navItems: NavItem
 
 
     return (
-        <div className="sticky top-0 w-full bg-white border-gray-300">
+        <div className="sticky top-0 z-50 w-full bg-white border-gray-300">
             <CenteredLayout>
                 <nav className="flex flex-row items-center justify-between h-16">
                     <Link className="flex items-center gap-3">
