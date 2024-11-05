@@ -1,4 +1,4 @@
-import { ILanguages } from "./types";
+import { AbousUsImageTypes, ILanguages } from "./types";
 
 export const languages: ILanguages[] = [
   {
@@ -13,4 +13,9 @@ export const languages: ILanguages[] = [
     country_code: "gb",
     image: "https://flagcdn.com/gb.svg",
   },
+];
+
+export const aboutUsImagesPath: AbousUsImageTypes[] = [
+  { imagePath: "images/aboutUs/about-1.png", alt: "About us Image 1" },
+  { imagePath: "images/aboutUs/about-2.png", alt: "About us Image 2" },
 ];

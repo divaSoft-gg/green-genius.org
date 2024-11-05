@@ -23,6 +23,37 @@
     "description": "Track, manage, and reduce your carbon footprint with Green Genius.",
     "button": "Contact Our Team Now"
   },
+  "featuresSection": {
+    "title": "Designed for business teams like yours",
+    "subtitle": "Here at Green Genius, we focus on sustainable practices that help your business reduce its carbon footprint and contribute to a healthier planet.",
+    "features": [
+      {
+        "icon": "images/features-icons/box.png",
+        "title": "Sustainable Supply Management",
+        "description": "Track carbon-related purchases for sustainable sourcing and a reduced footprint."
+      },
+      {
+        "icon": "images/features-icons/map-marker.png",
+        "title": "Emission Source Tracking",
+        "description": "Monitor production footprints to find opportunities for emission reduction."
+      },
+      {
+        "icon": "images/features-icons/delivery.png",
+        "title": "Track Transportation",
+        "description": "Optimize and manage facility CO2 emissions for improved efficiency."
+      },
+      {
+        "icon": "images/features-icons/trash.png",
+        "title": "Comprehensive Waste Management",
+        "description": "Manage and reduce waste with proper disposal and recycling to minimize impact."
+      },
+      {
+        "icon": "images/features-icons/analysis.png",
+        "title": "Carbon Footprint Analysis",
+        "description": "Calculate CO2 footprint and generate reports to track sustainability progress."
+      }
+    ]
+  },
 
   "aboutUsSection": {
     "title": "About Green Genius",

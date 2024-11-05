@@ -27,3 +27,14 @@ export interface FooterItems {
   title: string;
   sections: NavItemsProps[];
 }
+
+export interface Features {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface AbousUsImageTypes {
+  imagePath: string;
+  alt: string;
+}
