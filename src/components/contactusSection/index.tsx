@@ -11,17 +11,17 @@ export default function ContactUsSection() {
 
         <section id="contact-us">
             <CenteredLayout>
-                <div className="flex flex-col w-full p-4 lg:p-0 lg:flex-row">
-                    <div className="flex flex-col w-full gap-6 ">
-                        <h6 className="font-semibold text-left text-black text-7xl dark:text-white">{t('contactUs.title')} <br />{t('contactUs.subTitle')}</h6>
-                        <p className="py-6 text-left text-gray-700 text-medium w-96 dark:text-white">{t('contactUs.description')}</p>
-                        <ul className="flex flex-col w-full gap-2 pb-6 list-none lg:pb-0">
+                <div className="flex flex-col w-full gap-6 p-4 lg:gap-0 lg:p-0 lg:flex-row">
+                    <div className="flex flex-col w-full gap-12 ">
+                        <h6 className="font-semibold text-left text-black text-7xl dark:text-white">{t('contactUs.title')}</h6>
+                        <p className="text-left text-gray-700 text-medium w-96 dark:text-white">{t('contactUs.description')}</p>
+                        <ul className="flex flex-col w-full gap-4 list-none lg:pb-0">
                             <li>
-                                <h6 className="py-4 text-sm font-semibold tracking-wide text-gray-500 dark:text-white">{t('contactUs.ReachUsTitle')}</h6>
+                                <h6 className="text-sm font-semibold tracking-wide text-gray-500 dark:text-white">{t('contactUs.ReachUsTitle')}</h6>
                             </li>
                             {socials.map((element: Socials, index: number) => (
                                 <li key={index} >
-                                    <span className="text-lg font-semibold text-black dark:text-white">{element.answer}</span>
+                                    <span className="text-left text-gray-700 text-medium w-96 dark:text-white">{element.answer}</span>
                                 </li>
                             ))}
                         </ul>

@@ -66,9 +66,8 @@
   },
   "contactUs": {
     "sectionTitle": "Contact Us",
-    "title": "Have A Project?",
-    "subTitle": "Let's discuss",
-    "description": "Once you submit this form, expect to hear back from us within 24 hours",
+    "title": "Get In Touch",
+    "description": "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
     "ReachUsTitle": "Reach Us At",
     "socials": [
       {

@@ -57,9 +57,8 @@
   },
   "contactUs": {
     "sectionTitle": "Contactez-nous",
-    "title": "Vous avez un projet ?",
-    "subTitle": "Discutons-en",
-    "description": "Une fois que vous aurez soumis ce formulaire, attendez-vous à recevoir une réponse de notre part dans les 24 heures",
+    "title": "Prenez contact avec nous",
+    "description": "Vous avez un problème technique ? Vous souhaitez envoyer des commentaires sur une fonctionnalité bêta ? Besoin de détails sur notre plan Business ? Faites-le nous savoir.",
     "ReachUsTitle": "Contactez-nous à",
 
     "socials": [
