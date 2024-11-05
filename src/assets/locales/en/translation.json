@@ -23,6 +23,11 @@
     "description": "Track, manage, and reduce your carbon footprint with Green Genius.",
     "button": "Contact Our Team Now"
   },
+
+  "aboutUsSection": {
+    "title": "About Green Genius",
+    "paragraph": "Green Genius is dedicated to helping companies, in general and in the textile sector in particular, reduce their carbon footprint. Our platform offers comprehensive tools to track, manage and report carbon emissions across various operations. We aim to enable businesses to make informed decisions for a sustainable future."
+  },
   "footer": {
     "description": "Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.",
     "pages": "Pages",
