@@ -39,3 +39,7 @@ export interface AbousUsImageTypes {
   imagePath: string;
   alt: string;
 }
+export interface Socials {
+  question: string;
+  answer: string;
+}
