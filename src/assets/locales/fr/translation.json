@@ -55,6 +55,41 @@
       }
     ]
   },
+  "contactUs": {
+    "sectionTitle": "Contactez-nous",
+    "title": "Vous avez un projet ?",
+    "subTitle": "Discutons-en",
+    "description": "Une fois que vous aurez soumis ce formulaire, attendez-vous à recevoir une réponse de notre part dans les 24 heures",
+    "ReachUsTitle": "Contactez-nous à",
+
+    "socials": [
+      {
+        "question": "E-mail",
+        "answer": "exemple@exemple.com"
+      },
+      {
+        "question": "Adresse",
+        "answer": "4054 Rue. de Yasser Arafat, Sousse"
+      },
+      {
+        "question": "Téléphone",
+        "answer": "(+216) 53 333 850"
+      }
+    ],
+    "form": {
+      "fullName": "Nom et Prénom",
+      "fullNamePlaceholder": "John Doe",
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail@exemple.com",
+      "company": "Entreprise",
+      "companyPlaceholder": "MAAK Corp.",
+      "phone": "Numéro de téléphone",
+      "phonePlaceholder": "xxx_xxx_xxx",
+      "description": "Description",
+      "descriptionPlaceholder": "Votre message",
+      "button": "Envoyer"
+    }
+  },
   "footer": {
     "description": "Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.",
     "pages": "Pages",

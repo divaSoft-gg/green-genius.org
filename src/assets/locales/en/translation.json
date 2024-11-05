@@ -64,6 +64,40 @@
     "title": "About Green Genius",
     "paragraph": "Green Genius is dedicated to helping companies, in general and in the textile sector in particular, reduce their carbon footprint. Our platform offers comprehensive tools to track, manage and report carbon emissions across various operations. We aim to enable businesses to make informed decisions for a sustainable future."
   },
+  "contactUs": {
+    "sectionTitle": "Contact Us",
+    "title": "Have A Project?",
+    "subTitle": "Let's discuss",
+    "description": "Once you submit this form, expect to hear back from us within 24 hours",
+    "ReachUsTitle": "Reach Us At",
+    "socials": [
+      {
+        "question": "Email",
+        "answer": "example@example.com"
+      },
+      {
+        "question": "Address",
+        "answer": "4054 Street. de Yasser Arafat, Sousse"
+      },
+      {
+        "question": "Phone",
+        "answer": "(+216) 53 333 850"
+      }
+    ],
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Jhon Doe",
+      "email": "Email",
+      "emailPlaceholder": "Email@example.com",
+      "company": "Company",
+      "companyPlaceholder": "MAAK Corp",
+      "phone": "Phone Number",
+      "phonePlaceholder": "xxx_xxx_xxx",
+      "description": "Description",
+      "descriptionPlaceholder": "Your Message",
+      "button": "Send"
+    }
+  },
   "footer": {
     "description": "Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.",
     "pages": "Pages",
