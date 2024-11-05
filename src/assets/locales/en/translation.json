@@ -30,29 +30,39 @@
       {
         "icon": "images/features-icons/box.png",
         "title": "Sustainable Supply Management",
-        "description": "Track carbon-related purchases for sustainable sourcing and a reduced footprint."
+        "description": "Track carbon-related purchases for sustainable sourcing and a reduced footprint.",
+        "imagePreview": "images/aboutUs/about-1.png"
       },
       {
         "icon": "images/features-icons/map-marker.png",
         "title": "Emission Source Tracking",
-        "description": "Monitor production footprints to find opportunities for emission reduction."
+        "description": "Monitor production footprints to find opportunities for emission reduction.",
+        "imagePreview": "images/aboutUs/about-2.png"
       },
       {
         "icon": "images/features-icons/delivery.png",
         "title": "Track Transportation",
-        "description": "Optimize and manage facility CO2 emissions for improved efficiency."
+        "description": "Optimize and manage facility CO2 emissions for improved efficiency.",
+        "imagePreview": "images/aboutUs/about-1.png"
       },
       {
         "icon": "images/features-icons/trash.png",
         "title": "Comprehensive Waste Management",
-        "description": "Manage and reduce waste with proper disposal and recycling to minimize impact."
+        "description": "Manage and reduce waste with proper disposal and recycling to minimize impact.",
+        "imagePreview": "images/aboutUs/about-2.png"
       },
       {
         "icon": "images/features-icons/analysis.png",
         "title": "Carbon Footprint Analysis",
-        "description": "Calculate CO2 footprint and generate reports to track sustainability progress."
+        "description": "Calculate CO2 footprint and generate reports to track sustainability progress.",
+        "imagePreview": "images/aboutUs/about-1.png"
       }
     ]
+  },
+
+  "aboutUsSection": {
+    "title": "About Green Genius",
+    "paragraph": "Green Genius is dedicated to helping companies, in general and in the textile sector in particular, reduce their carbon footprint. Our platform offers comprehensive tools to track, manage and report carbon emissions across various operations. We aim to enable businesses to make informed decisions for a sustainable future."
   },
   "footer": {
     "description": "Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.",

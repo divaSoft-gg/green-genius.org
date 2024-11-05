@@ -10,14 +10,12 @@ export default function HeroSection() {
 
     return (
         <section id="hero-section">
-
             <CentredLayout>
                 <div className="flex flex-row justify-between w-full gap-8 px-4 my-16 dark lg:p-0">
                     <div className="flex flex-col gap-8">
                         <h1 className="text-4xl tracking-tight text-left lg:text-6xl lg:max-w-2xl lg:px-0 light:text-black">
                             {t('heroSection.title')}
                         </h1>
-
                         <p className="max-w-2xl text-lg font-light text-justify lg:text-left lg:px-0 light:text-gray-300">
                             {t('heroSection.description')}
                         </p>
