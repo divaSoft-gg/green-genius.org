@@ -9,14 +9,16 @@ export default function FeaturesSection() {
     const features: Features[] = t('featuresSection.features', { returnObjects: true }) as Features[];
 
     return (
-        <section id="features-section" className="px-4 my-6 lg:px-0">
+        <section id="features-section" className="px-4 lg:px-0">
             <CentredLayout>
-                <SectionTitle title={t('featuresSection.title')} subtitle={t('featuresSection.subtitle')} />
-                <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-                    {features.map((element: Features, index: number) => (
+                <div className="flex flex-col gap-8">
+                    <SectionTitle title={t('featuresSection.title')} subtitle={t('featuresSection.subtitle')} />
 
-                        <FeaturesCard key={index} element={element} />
-                    ))}
+                    <div className="grid gap-4 sharedGrid">
+                        {features.map((element: Features, index: number) => (
+                            <FeaturesCard key={index} element={element} />
+                        ))}
+                    </div>
                 </div>
             </CentredLayout>
         </section>
@@ -25,12 +27,14 @@ export default function FeaturesSection() {
 
 function FeaturesCard({ element }: Readonly<{ element: Features }>) {
     return (
-        <Card className="p-4" shadow="sm" >
+        <Card className="p-4 overflow-hidden cursor-pointer group" shadow="sm" >
             <CardBody className="flex flex-col gap-10 " >
-                <Image src={element.icon} width={55} className="cursor-pointer dark:invert hover:scale-95" />
+                <Image src={element.icon} width={55} className="dark:invert group-hover:scale-125" />
 
-                <h1 className="text-xl font-semibold text-left dark:text-white">{element.title}</h1>
-                <p className="text-lg">{element.description}</p>
+                <div className="flex flex-col gap-4">
+                    <h1 className="text-xl font-semibold text-left dark:text-white">{element.title}</h1>
+                    <p className="text-base text-gray-500 ">{element.description}</p>
+                </div>
             </CardBody>
         </Card>
     )
