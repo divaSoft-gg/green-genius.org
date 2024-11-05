@@ -26,27 +26,32 @@
       {
         "icon": "images/features-icons/box.png",
         "title": "Gestion durable des approvisionnements",
-        "description": "Suivez les achats liés au carbone pour un approvisionnement durable et une empreinte réduite."
+        "description": "Suivez les achats liés au carbone pour un approvisionnement durable et une empreinte réduite.",
+        "imagePreview": "images/aboutUs/about-1.png"
       },
       {
         "icon": "images/features-icons/map-marker.png",
         "title": "Suivi des sources d'émission",
-        "description": "Surveiller les empreintes de production pour trouver des opportunités de réduction des émissions."
+        "description": "Surveiller les empreintes de production pour trouver des opportunités de réduction des émissions.",
+        "imagePreview": "images/aboutUs/about-1.png"
       },
       {
         "icon": "images/features-icons/delivery.png",
         "title": "Suivre le transport",
-        "description": "Optimiser et gérer les émissions de CO2 des installations pour une efficacité améliorée."
+        "description": "Optimiser et gérer les émissions de CO2 des installations pour une efficacité améliorée.",
+        "imagePreview": "images/aboutUs/about-1.png"
       },
       {
         "icon": "images/features-icons/trash.png",
         "title": "Gestion globale des déchets",
-        "description": "Gérer et réduire les déchets grâce à une élimination et un recyclage appropriés pour minimiser l'impact."
+        "description": "Gérer et réduire les déchets grâce à une élimination et un recyclage appropriés pour minimiser l'impact.",
+        "imagePreview": "images/aboutUs/about-1.png"
       },
       {
         "icon": "images/features-icons/analysis.png",
         "title": "Analyse de l'empreinte carbone",
-        "description": "Calculez l'empreinte CO2 et générez des rapports pour suivre les progrès en matière de développement durable."
+        "description": "Calculez l'empreinte CO2 et générez des rapports pour suivre les progrès en matière de développement durable.",
+        "imagePreview": "images/aboutUs/about-1.png"
       }
     ]
   },

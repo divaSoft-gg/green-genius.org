@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* VARIABLES */
   --max-content-width: 1200px;
@@ -10,3 +16,5 @@
 .sharedGrid {
   grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
 }
+
+

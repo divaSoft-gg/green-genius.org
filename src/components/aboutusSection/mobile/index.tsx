@@ -1,10 +1,10 @@
 import { Card, CardBody, Image } from "@nextui-org/react";
-import SectionTitle from "../shared/sectionTitle";
-import CentredLayout from "../ui/centredLayout";
 import { useTranslation } from "react-i18next";
-import { Features } from "../../common/types";
+import CentredLayout from "../../ui/centredLayout";
+import { Features } from "../../../common/types";
+import SectionTitle from "../../shared/sectionTitle";
 
-export default function FeaturesSection() {
+export default function AboutUsSectionMobile() {
     const { t } = useTranslation()
     const features: Features[] = t('featuresSection.features', { returnObjects: true }) as Features[];
 

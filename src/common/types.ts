@@ -32,6 +32,7 @@ export interface Features {
   icon: string;
   title: string;
   description: string;
+  imagePreview: string;
 }
 
 export interface AbousUsImageTypes {
