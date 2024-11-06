@@ -3,6 +3,7 @@ import { ErrorFallback } from './components/ui/ErrorFallback'
 import { AppContainer } from './components/ui/AppContainer'
 import Home from './views/Home'
 import ContactUs from './views/contactUs'
+import FAQPage from './views/FAQ'
 
 const publicRoutes: RouteObject[] = [
     {
@@ -17,5 +18,14 @@ const publicRoutes: RouteObject[] = [
         errorElement: <ErrorFallback />,
         children: [{ index: true, element: <ContactUs /> }],
     },
+    {
+        path: '/faq',
+        element: <AppContainer />,
+        errorElement: <ErrorFallback />,
+        children: [{
+            index: true, element: <FAQPage />
+        }]
+    }
+
 ]
 export const router = createBrowserRouter([...publicRoutes])

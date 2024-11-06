@@ -43,3 +43,8 @@ export interface Socials {
   question: string;
   answer: string;
 }
+export interface faqType {
+  question: string;
+  answer: string;
+  category: string;
+}
