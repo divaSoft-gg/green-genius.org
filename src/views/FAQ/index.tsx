@@ -11,9 +11,9 @@ export default function FAQPage() {
     const questions: faqType[] = t('faq.content', { returnObjects: true }) as faqType[];
 
     return (
-        <section id="FAQ_page" className="my-24">
+        <section id="FAQ_page" className="my-12">
             <CentredLayout>
-                <div className="flex flex-col gap-12">
+                <div className="flex flex-col gap-12 px-4 lg:px-0">
                     <SectionTitle title={t('faq.setionTitle')} />
                     <div className="flex flex-col items-center gap-8">
                         {questions.map((element: faqType, index: number) => (
@@ -26,8 +26,8 @@ export default function FAQPage() {
 
                     </div>
                     <div className="flex flex-col gap-8">
-                        <h1 className="text-2xl font-bold text-center text-black dark:text-white">{t('faq.sectionFooterTitle')}</h1>
-                        <p className="font-semibold text-center">{t('faq.sectionFooterDescription')}<Link className="font-bold text-black underline cursor-pointer dark:text-white" href="/contact-us">{t('faq.contactUsLink')}</Link></p>
+                        <h1 className="text-4xl font-semibold text-center text-black dark:text-white">{t('faq.sectionFooterTitle')}</h1>
+                        <p className="text-center ">{t('faq.sectionFooterDescription')}<Link className="font-bold text-black underline cursor-pointer dark:text-white" href="/contact-us">{t('faq.contactUsLink')}</Link></p>
                     </div>
                 </div>
             </CentredLayout>
