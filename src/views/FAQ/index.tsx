@@ -17,7 +17,8 @@ export default function FAQPage() {
                     <div className="flex flex-col items-center gap-8">
                         {questions.map((element: faqType, index: number) => (
                             <Accordion key={index} >
-                                <AccordionItem indicator={<FaChevronDown />} title={<AccordionTitle title={element.question} />} className="px-4 bg-gray-100 border rounded-md dark:bg-white">
+                                <AccordionItem indicator={<FaChevronDown />} textValue={element.question}
+                                    title={<AccordionTitle title={element.question} />} className="px-4 bg-gray-100 border rounded-md dark:bg-white">
                                     <p className="my-2 leading-relaxed dark:text-black">{element.answer}</p>
                                 </AccordionItem>
                             </Accordion>
