@@ -1,4 +1,3 @@
-import { Button, Input, Textarea } from "@nextui-org/react";
 import CenteredLayout from "../ui/centredLayout";
 import { useTranslation } from "react-i18next";
 import { Socials } from "../../common/types";
