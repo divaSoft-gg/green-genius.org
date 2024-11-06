@@ -5,6 +5,8 @@ import { NextUIProvider, Spinner } from '@nextui-org/react'
 import { cn } from '../../../common/utils'
 import NavigationBar from '../../partials/navbar'
 import Footer from '../../partials/footer'
+import { DivaGeneralNavbar } from '@aymen_diva/diva-shared-navbar'
+
 
 export function AppContainer({ className = '' }) {
     const navigate = useNavigate()
@@ -12,6 +14,7 @@ export function AppContainer({ className = '' }) {
     return (
         <NextUIProvider navigate={navigate}>
             <div className={cn('w-full h-full', className)}>
+                <DivaGeneralNavbar />
                 <NavigationBar />
                 <React.Suspense
                     fallback={

@@ -1,6 +1,8 @@
+@import url('@aymen_diva/diva-shared-navbar/dist/index.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 *{
   margin: 0;
