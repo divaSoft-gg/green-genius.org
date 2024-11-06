@@ -5,11 +5,15 @@
       "link": "/"
     },
     {
-      "label": "Home 2",
+      "label": "Tarification",
       "link": "/"
     },
     {
-      "label": "Home 3",
+      "label": "Contactez Nous ",
+      "link": "/contact-us"
+    },
+    {
+      "label": "FAQ",
       "link": "/"
     }
   ],

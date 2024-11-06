@@ -1,4 +1,3 @@
-import './App.css'
 import { ErrorBoundary } from 'react-error-boundary'
 import { ErrorFallback } from './components/ui/ErrorFallback'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
