@@ -22,6 +22,6 @@ export const aboutUsImagesPath: AbousUsImageTypes[] = [
 
 export const currencyList = [
   { label: "TND", code: "TND" },
-  { label: "USD", code: "USD" },
-  { label: "EUR", code: "EUR" },
+  { label: "USD", code: "$" },
+  { label: "EUR", code: "€" },
 ];
