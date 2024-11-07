@@ -1,53 +1,22 @@
-/* Importing Google Fonts */
-@import url(@aymen_diva/diva-shared-navbar/dist/index.css);
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
+@import url('@aymen_diva/diva-shared-navbar/dist/index.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-
-/* Resetting Default Styles */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
+:root {
+  /* VARIABLES */
+  --max-content-width: 1200px;
 }
 
-body {
-  line-height: 1.5;
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+.sharedGrid {
+  grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
 }
 
-/* Remove default list styles */
-ul,
-ol {
-  list-style: none;
-}
 
-/* Remove default link styles */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.rtl {
-  direction: rtl;
-  text-align: right;
-}
-
-.ltr {
-  direction: ltr;
-  text-align: left;
-}
