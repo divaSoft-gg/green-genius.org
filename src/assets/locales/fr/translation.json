@@ -6,7 +6,7 @@
     },
     {
       "label": "Tarification",
-      "link": "/"
+      "link": "/pricing"
     },
     {
       "label": "Contactez Nous ",
@@ -145,6 +145,60 @@
     "sectionFooterTitle": "Encore des questions?",
     "sectionFooterDescription": "N'hésitez pas à ",
     "contactUsLink": "Nous Contacter"
+  },
+  "pricing": {
+    "sectionTitle": "Tarification",
+    "sectionSubtitle": "Tarification simple, transparente et flexible",
+    "selectLabel": "Prix ​​en",
+    "pricingPlans": [
+      {
+        "title": "Débutant",
+        "subtitle": "Meilleure option pour un usage personnel et pour votre prochain projet.",
+        "icon": "/images/pricing/starter.png",
+        "amount": 29,
+        "duration": "mois",
+
+        "buttonText": "Commencer",
+        "services": [
+          "Configuration individuelle",
+          "Aucun frais de configuration ou caché",
+          "Taille de l'équipe : 1 développeur",
+          "Support premium : 6 mois",
+          "Mises à jour gratuites : 6 mois"
+        ]
+      },
+      {
+        "title": "Entreprise",
+        "subtitle": "Pertinent pour plusieurs utilisateurs, support étendu et premium.",
+        "icon": "/images/pricing/company.png",
+        "amount": 99,
+        "duration": "mois",
+        "buttonText": "Commencer",
+        "services": [
+          "Configuration individuelle",
+          "Aucun frais de configuration ou caché",
+          "Taille de l'équipe : 10 développeurs",
+          "Support premium : 24 mois",
+          "Mises à jour gratuites : 24 mois"
+        ]
+      },
+      {
+        "title": "Entreprise Avancée",
+        "subtitle": "Idéal pour les usages à grande échelle et les droits de redistribution étendus.",
+        "icon": "/images/pricing/entreprise.png",
+        "amount": 499,
+        "duration": "mois",
+
+        "buttonText": "Commencer",
+        "services": [
+          "Configuration individuelle",
+          "Aucun frais de configuration ou caché",
+          "Taille de l'équipe : 100+ développeurs",
+          "Support premium : 36 mois",
+          "Mises à jour gratuites : 36 mois"
+        ]
+      }
+    ]
   },
   "footer": {
     "description": "Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.",

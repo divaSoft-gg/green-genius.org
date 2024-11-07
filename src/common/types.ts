@@ -48,3 +48,25 @@ export interface faqType {
   answer: string;
   category: string;
 }
+export interface currencyListType {
+  label: string;
+  code: string;
+}
+export interface ExchangeRateData {
+  date: string;
+  usdRate: number;
+  eurRate: number;
+  tndRate: number;
+}
+
+export type FetchExchangeRates = () => Promise<ExchangeRateData>;
+
+export interface pricingPlansType {
+  title: string;
+  subtitle: string;
+  icon: string;
+  amount: number;
+  services: string[];
+  buttonText: string;
+  duration: string;
+}

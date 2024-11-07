@@ -4,6 +4,7 @@ import { AppContainer } from './components/ui/AppContainer'
 import Home from './views/Home'
 import ContactUs from './views/contactUs'
 import FAQPage from './views/FAQ'
+import PricingPage from './views/pricing'
 
 const publicRoutes: RouteObject[] = [
     {
@@ -22,9 +23,13 @@ const publicRoutes: RouteObject[] = [
         path: '/faq',
         element: <AppContainer />,
         errorElement: <ErrorFallback />,
-        children: [{
-            index: true, element: <FAQPage />
-        }]
+        children: [{ index: true, element: <FAQPage /> }]
+    },
+    {
+        path: '/pricing',
+        element: <AppContainer />,
+        errorElement: <ErrorFallback />,
+        children: [{ index: true, element: <PricingPage /> }]
     }
 
 ]
