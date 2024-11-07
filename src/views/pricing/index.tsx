@@ -77,13 +77,13 @@ export default function PricingPage() {
                                         )}
                                     >
                                         <Image src={plan.icon} width={60} className="self-start" />
-                                        <h1 className="text-4xl font-semibold min-h-20">{plan.title}</h1>
-                                        <p className="text-lg text-gray-600 dark:text-white min-h-24">{plan.subtitle}</p>
+                                        <h1 className="text-4xl font-semibold min-h-20 dark:text-black">{plan.title}</h1>
+                                        <p className="text-lg text-gray-600 min-h-24">{plan.subtitle}</p>
                                         <div className="flex flex-row items-center gap-1">
-                                            <h6 className="text-3xl">
+                                            <h6 className="text-3xl dark:text-black">
                                                 {getConvertedAmount(plan.amount, selectedCurrency, exchangeRates)} {selectedCurrency}
                                             </h6>
-                                            <span className="text-gray-500 text-medium dark:text-white">/ {plan.duration}</span>
+                                            <span className="text-gray-500 text-medium dark:text-black">/ {plan.duration}</span>
                                         </div>
 
                                         <Divider />
@@ -91,7 +91,7 @@ export default function PricingPage() {
                                             {plan.services.map((item, idx) => (
                                                 <li key={idx} className="flex flex-row items-center gap-4 py-3">
                                                     <IoIosCheckmarkCircleOutline color="green" />
-                                                    <p className="font-semibold text-gray-600 dark:text-white">{item}</p>
+                                                    <p className="font-semibold text-gray-600 dark:text-black">{item}</p>
                                                 </li>
                                             ))}
                                         </ul>
