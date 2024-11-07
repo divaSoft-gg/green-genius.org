@@ -6,7 +6,7 @@
     },
     {
       "label": "Pricing",
-      "link": "/"
+      "link": "/pricing"
     },
     {
       "label": "Contact",
@@ -149,6 +149,62 @@
     "sectionFooterTitle": "Still Got Questions?",
     "sectionFooterDescription": "Feel Free To ",
     "contactUsLink": "Contact Us"
+  },
+  "pricing": {
+    "sectionTitle": "Pricing",
+    "sectionSubtitle": "Simple, Transparent, and Flexible Pricing",
+    "selectLabel": "Price In",
+    "pricingPlans": [
+      {
+        "title": "Starter",
+        "subtitle": "Best option for personal use & for your next project.",
+        "icon": "/images/pricing/starter.png",
+        "amount": 29,
+        "duration": "month",
+        "buttonText": "Get Started",
+
+        "services": [
+          "Individual configuration",
+          "No setup or hidden fees",
+          "Team size: 1 developer",
+          "Premium support: 6 months",
+          "Free updates: 6 months"
+        ]
+      },
+      {
+        "title": "Company",
+        "subtitle": "Relevant for multiple users, extended & premium support.",
+        "icon": "/images/pricing/company.png",
+        "amount": 99,
+        "duration": "month",
+
+        "buttonText": "Get Started",
+
+        "services": [
+          "Individual configuration",
+          "No setup or hidden fees",
+          "Team size: 10 developers",
+          "Premium support: 24 months",
+          "Free updates: 24 months"
+        ]
+      },
+      {
+        "title": "Enterprise",
+        "subtitle": "Best for large scale uses and extended redistribution rights.",
+        "icon": "/images/pricing/entreprise.png",
+        "amount": 499,
+        "duration": "month",
+
+        "buttonText": "Get Started",
+        "services": [
+          "Individual configuration",
+          "No setup or hidden fees",
+          "Team size: +100 developers",
+          "Premium support: 36 months",
+          "Free updates: 36 months"
+        ]
+      }
+    ]
   },
   "footer": {
     "description": "Green Genius is a SaaS platform that helps businesses track, manage, and reduce their carbon footprint. It offers tools for supply management, order management, transportation, waste management, and CO2 reporting to support sustainable solutions.",
