@@ -38,12 +38,12 @@ export default function PricingPage() {
     return (
         <section id="pricing-page" className="my-12">
             <CentredLayout>
-                <div className="flex flex-col gap-10">
+                <div className="flex flex-col gap-10 px-4 lg:px-0">
                     <SectionTitle title={t('pricing.sectionTitle')} subtitle={t('pricing.sectionSubtitle')} />
                     <div className="flex flex-row items-center gap-6">
                         <h1 className="text-lg">{t('pricing.selectLabel')}</h1>
                         <Select
-                            className="max-w-xs"
+                            className="lg:max-w-xs max-w-24 "
                             defaultSelectedKeys={["TND"]}
                             aria-label="currency"
                             onChange={(e) => {
