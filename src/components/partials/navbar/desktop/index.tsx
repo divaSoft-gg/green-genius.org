@@ -3,6 +3,7 @@ import { NavItemsProps } from "../../../../common/types";
 import CenteredLayout from "../../../ui/centredLayout";
 import ThemeToggler from "../../../shared/themeToggler";
 import LanguageDropdown from "../../../shared/languageDorpdown";
+import { scrollToTop } from "../../../../common/utils";
 
 export default function DesktopNavBar({ navItems }: Readonly<{ navItems: NavItemsProps[] }>) {
 
@@ -18,7 +19,7 @@ export default function DesktopNavBar({ navItems }: Readonly<{ navItems: NavItem
                         {
                             navItems.map((element: NavItemsProps, index: number) =>
                                 <li key={index} className='py-4'>
-                                    <Link href={element.link} className='block text-gray-900 hover:text-blue-700' >
+                                    <Link href={element.link} onClick={() => scrollToTop()} className='block text-gray-900 hover:text-blue-700' >
                                         {element.label}
                                     </Link>
                                 </li>
