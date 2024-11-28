@@ -1,5 +1,6 @@
 @import url("@aymen_diva/diva-shared-navbar/dist/index.css");
 @import "@aymen_diva/diva-demo-call-to-action/dist/index.css";
+@import "@aymen_diva/diva-contact-form/dist/index.css";
 
 @tailwind base;
 @tailwind components;
