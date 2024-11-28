@@ -134,7 +134,7 @@ export default function PricingPage() {
               );
             })}
           </div>
-          <GeneralDemoCallToAction root="greenGenius" />
+          <GeneralDemoCallToAction root="divatex" />
         </div>
       </CentredLayout>
     </section>

@@ -10,13 +10,13 @@ export default function Home() {
       <HeroSection />
       <CentredLayout>
         <div className="px-4 lg:px-4">
-          <GeneralDemoCallToAction root="greenGenius" />
+          <GeneralDemoCallToAction root="divatex" />
         </div>{" "}
       </CentredLayout>
       <AboutUsSection />
       <CentredLayout>
         <div className="px-4 lg:px-4">
-          <GeneralDemoCallToAction root="greenGenius" />
+          <GeneralDemoCallToAction root="divatex" />
         </div>
       </CentredLayout>{" "}
       <ContactUsSection />
