@@ -134,8 +134,8 @@ export default function PricingPage() {
               );
             })}
           </div>
+          <CTACard />
         </div>
-        <CTACard />
       </CentredLayout>
     </section>
   );
