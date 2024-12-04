@@ -21,7 +21,7 @@ export default function CTACard() {
         >
           <GeneralColWrapper>
             <GeneralTitle textColor="#000000" darkTextColor="#ffffff" />
-            <GeneralDescription textColor="#000000" />
+            <GeneralDescription textColor="#000000" darkTextColor="#ffffff" />
             <GeneralButton width="half" buttonPath="/contact-us" />
           </GeneralColWrapper>
         </GeneralDemoCallToAction>
