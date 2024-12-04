@@ -18,7 +18,7 @@ import {
 import { currencyList } from "../../common/data";
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "react-responsive";
-import { GeneralDemoCallToAction } from "@aymen_diva/diva-demo-call-to-action";
+import CTACard from "../../components/shared/CTACard";
 
 export default function PricingPage() {
   const isMobile = useMediaQuery({ query: "(max-width: 720px  )" });
@@ -134,8 +134,8 @@ export default function PricingPage() {
               );
             })}
           </div>
-          <GeneralDemoCallToAction root="divatex" />
         </div>
+        <CTACard />
       </CentredLayout>
     </section>
   );

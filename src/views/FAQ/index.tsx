@@ -4,7 +4,7 @@ import CentredLayout from "../../components/ui/centredLayout";
 import { useTranslation } from "react-i18next";
 import { faqType } from "../../common/types";
 import { FaChevronDown } from "react-icons/fa";
-import { GeneralDemoCallToAction } from "@aymen_diva/diva-demo-call-to-action";
+import CTACard from "../../components/shared/CTACard";
 
 export default function FAQPage() {
   const { t } = useTranslation();
@@ -16,6 +16,8 @@ export default function FAQPage() {
     <section id="FAQ_page" className="my-12">
       <CentredLayout>
         <div className="flex flex-col gap-12 px-4 lg:px-0">
+          <CTACard />
+
           <SectionTitle title={t("faq.setionTitle")} />
           <div className="flex flex-col items-center gap-8">
             {questions.map((element: faqType, index: number) => (
@@ -47,7 +49,6 @@ export default function FAQPage() {
               </Link>
             </p>
           </div>
-          <GeneralDemoCallToAction root="divatex" />
         </div>
       </CentredLayout>
     </section>
