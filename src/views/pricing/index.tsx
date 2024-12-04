@@ -18,6 +18,7 @@ import {
 import { currencyList } from "../../common/data";
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "react-responsive";
+import CTACard from "../../components/shared/CTACard";
 
 export default function PricingPage() {
   const isMobile = useMediaQuery({ query: "(max-width: 720px  )" });
@@ -52,7 +53,7 @@ export default function PricingPage() {
   return (
     <section id="pricing-page" className="my-12">
       <CentredLayout>
-        <div className="flex flex-col gap-10 px-4 lg:px-0">
+        <div className="flex flex-col gap-24 px-4 lg:px-0">
           <SectionTitle
             title={t("pricing.sectionTitle")}
             subtitle={t("pricing.sectionSubtitle")}
@@ -133,6 +134,7 @@ export default function PricingPage() {
               );
             })}
           </div>
+          <CTACard />
         </div>
       </CentredLayout>
     </section>

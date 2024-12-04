@@ -1,20 +1,18 @@
-import { useMediaQuery } from "react-responsive";
-import AboutUsSection from "../../components/aboutusSection/desktop";
+import AboutUsSection from "../../components/aboutusSection";
 import HeroSection from "../../components/HeroSection";
-import AboutUsSectionMobile from "../../components/aboutusSection/mobile";
 import ContactUsSection from "../../components/contactusSection";
 
-export default function Home() {
-    const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
-    return (
-        <div className="flex flex-col gap-24">
-            <HeroSection />
-            {
-                isMobile ? <AboutUsSectionMobile /> : <AboutUsSection />
-            }
-            <ContactUsSection />
-            <div></div>
+import CTACard from "../../components/shared/CTACard";
 
-        </div>
-    )
+export default function Home() {
+  return (
+    <div className="flex flex-col gap-24">
+      <HeroSection />
+      <CTACard />
+      <AboutUsSection />
+      <CTACard />
+
+      <ContactUsSection />
+    </div>
+  );
 }
