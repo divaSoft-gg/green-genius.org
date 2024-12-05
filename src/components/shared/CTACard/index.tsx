@@ -7,9 +7,11 @@ import {
 } from "@aymen_diva/diva-demo-call-to-action";
 import CentredLayout from "../../ui/centredLayout";
 import { useMediaQuery } from "react-responsive";
+import { useTheme } from "../../../hooks/useTheme";
 
 export default function CTACard() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const { theme } = useTheme();
 
   return (
     <section>
@@ -18,6 +20,7 @@ export default function CTACard() {
           direction="row"
           hasPadding={isMobile}
           darkModeCardBackground="#000000"
+          theme={theme}
         >
           <GeneralColWrapper>
             <GeneralTitle textColor="#000000" darkTextColor="#ffffff" />
